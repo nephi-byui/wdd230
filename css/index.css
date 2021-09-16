@@ -1,17 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&family=Ubuntu+Mono&display=swap');
+
 body {
     background-color: #111111;
 }
 
-.verse {
-    font-family: 'Courier New', Courier, monospace;
-    font-style: italic;
+p, ul, li, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', 'Ubuntu Mono', monospace;  
+    color: #dddddd;
+}
+
+h1 {
+    font-size: 5em;
     text-align: center;
-    color: #eeeeee;
-    padding: 1em;
-    padding-top: 3em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+img {
+    max-width: 100%;
 }
 
 #content {
+    color: #eeeeee;
     max-width: 640px;
     margin: auto;
+}
+
+a, a:visited {
+    color: #eeeeee;
+}
+
+main {
+    padding: 3em;
+/*    background-color: #333333; */
+    border-radius: 10px;
+}
+
+#profile-photo {
+    max-width: 200px;
+    float: right;
+    border-radius: 15em;
+}
+
+footer{
+    
+    text-align:center;
+    padding: 3em;
+
 }
