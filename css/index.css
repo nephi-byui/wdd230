@@ -58,7 +58,7 @@ main {
 
 #profile-photo {
   max-width: 200px;
-  float: right;
+  /* float: right; */ /* moved to medium.css */ 
   margin: 1em;
   border-radius: 15em;
   border-style: solid;
