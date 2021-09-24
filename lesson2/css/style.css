@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Ubuntu:wght@400;700&display=swap");
+body {
+  background-color: #111111;
+}
+
+p,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+  color: #dddddd;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Ubuntu", "Open Sans", sans-serif;
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+img {
+  max-width: 100%;
+}
+
+#content {
+  color: #eeeeee;
+  max-width: 75em;
+  margin: auto;
+}
+
+a,
+a:visited {
+  transition: 1s;
+  color: #eeeeee;
+}
+
+a:hover {
+  transition: 1s;
+  color: #1f7a8c;
+}
+
+main {
+  padding: 2em;
+  background-color: #383f51;
+  border-radius: 5px;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  padding: 3em;
+}
+
+#main-grid {
+    display: grid;
+    grid-column-gap: 1em;
+}
