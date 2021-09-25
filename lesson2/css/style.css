@@ -62,7 +62,20 @@ footer {
   padding: 3em;
 }
 
+/* lesson2 */
+
 #main-grid {
     display: grid;
     grid-column-gap: 1em;
+
+}
+
+#home-button {
+    font-family: "Lato", sans-serif;
+    padding: .5em;
+    font-size: 1.25em;
+    background-color:#eeeeee;
+    color:#111111;
+    text-align: center;
+    border-radius: 15px;
 }
