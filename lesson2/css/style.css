@@ -3,6 +3,8 @@ body {
   background-color: #111111;
 }
 
+/* https://coolors.co/2176ae-57b8ff-b66d0d-fbb13c-fe6847 */
+
 p,
 ul,
 li,
@@ -35,8 +37,14 @@ img {
 
 #content {
   color: #eeeeee;
-  max-width: 75em;
+  max-width: 70em;
   margin: auto;
+}
+
+main {
+  padding: 2em;
+  background-color: #005580;
+  border-radius: 5px;
 }
 
 a,
@@ -47,13 +55,17 @@ a:visited {
 
 a:hover {
   transition: 1s;
-  color: #1f7a8c;
+  color:#57B8FF;
 }
 
-main {
-  padding: 2em;
-  background-color: #383f51;
-  border-radius: 5px;
+#profile-photo {
+  max-width: 200px;
+  /* float: right; */ /* moved to medium.css */ 
+  margin: 1em;
+  border-radius: 15em;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #eeeeee;
 }
 
 footer {
@@ -61,6 +73,7 @@ footer {
   text-align: center;
   padding: 3em;
 }
+
 
 /* lesson2 */
 
@@ -70,6 +83,8 @@ footer {
 
 }
 
+
+
 #home-button {
     font-family: "Lato", sans-serif;
     padding: .5em;
@@ -78,4 +93,10 @@ footer {
     color:#111111;
     text-align: center;
     border-radius: 15px;
+    transition: 1s;
+}
+
+#home-button:hover {
+    background-color: #57B8FF;
+    transition: 1s;
 }

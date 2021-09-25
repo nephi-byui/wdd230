@@ -3,6 +3,8 @@ body {
   background-color: #111111;
 }
 
+/* https://coolors.co/2176ae-57b8ff-b66d0d-fbb13c-fe6847 */
+
 p,
 ul,
 li,
@@ -39,6 +41,12 @@ img {
   margin: auto;
 }
 
+main {
+  padding: 2em;
+  background-color: #005580;
+  border-radius: 5px;
+}
+
 a,
 a:visited {
   transition: 1s;
@@ -47,13 +55,7 @@ a:visited {
 
 a:hover {
   transition: 1s;
-  color: #1f7a8c;
-}
-
-main {
-  padding: 2em;
-  background-color: #383f51;
-  border-radius: 5px;
+  color:#57B8FF;
 }
 
 #profile-photo {
