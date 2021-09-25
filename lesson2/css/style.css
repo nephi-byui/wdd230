@@ -83,6 +83,9 @@ footer {
 
 }
 
+#main-grid section {
+    padding: .75em;
+}
 
 
 #home-button {
