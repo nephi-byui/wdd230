@@ -1,0 +1,125 @@
+/* small / baseline */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Ubuntu:wght@400;700&display=swap");
+body {
+  background-color: #111111;
+}
+
+p,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+  color: #dddddd;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+  font-family: "Ubuntu", "Open Sans", sans-serif;
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+img {
+  max-width: 100%;
+}
+
+#content {
+  color: #eeeeee;
+  max-width: 70em;
+  margin: auto;
+}
+
+main {
+  padding: 2em;
+  background-color: #005580;
+  border-radius: 5px;
+}
+
+a,
+a:visited {
+  transition: 1s;
+  color: #eeeeee;
+}
+
+a:hover {
+  transition: 1s;
+  color:#57B8FF;
+}
+
+#profile-photo {
+  max-width: 200px;
+  /* float: right; */ /* moved to medium.css */ 
+  margin: 1em;
+  border-radius: 15em;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #eeeeee;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  padding: 3em;
+}
+
+
+/* lesson2 */
+
+#main-grid {
+    display: grid;
+    grid-column-gap: 1em;
+
+}
+
+#main-grid section {
+    padding: .75em;
+}
+
+
+#home-button {
+    font-family: "Lato", sans-serif;
+    padding: .5em;
+    font-size: 1.25em;
+    background-color:#eeeeee;
+    color:#111111;
+    text-align: center;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+#home-button:hover {
+    background-color: #57B8FF;
+    transition: 1s;
+}
+
+/* nav */
+
+nav {
+  text-decoration: none;
+}
+
+
+/*
+@media screen and (min-width: 22em) {
+    nav ul li a {
+        display: block;
+        list-style-type
+    }
+}  */
+
+nav > ul > li {
+    display: block;
+    list-style-type: none;
+}
