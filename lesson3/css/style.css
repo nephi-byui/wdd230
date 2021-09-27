@@ -197,3 +197,18 @@ nav > ul > li > a.current-page:hover {
     font-size: .8em;
     opacity: 80%;
 }
+
+/* target-audience.html */
+
+.persona-photo {
+    max-width: 24em;
+}
+
+.attribution {
+    opacity: 50%;
+    font-size: .8em;
+}
+
+.persona h4 {
+    font-size: 2.5em;
+}
