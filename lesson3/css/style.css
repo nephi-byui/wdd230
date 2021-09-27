@@ -140,3 +140,50 @@ nav > ul > li > a.current-page:hover {
     padding: 2em;
     border-radius: 1em;
 }
+
+
+/* color-scheme.html */
+
+
+
+#color-boxes {
+    text-align: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.colorbox {
+    padding: 1em;
+}
+
+.viridian-green {
+    background-color: #0AA0A8;
+}
+
+.celadon {
+    color: #333333;
+    background-color: #BEFFC7;
+}
+
+.turquoise-green {
+    color: #333333;
+    background-color: #A9D8B8;
+}
+
+.cambridge-blue {
+    background-color: #A7C4B5;
+}
+
+.jet {
+    background-color: #2F2D2E;
+}
+
+.hex-code {
+    font-size: 2em;
+}
+
+.color-name {
+    font-size: .9em;
+    opacity: 80%;
+}
