@@ -151,10 +151,13 @@ nav > ul > li > a.current-page:hover {
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    font-family: "Ubuntu", "Open Sans", sans-serif;
 }
 
 .colorbox {
     padding: 1em;
+    margin: 5px;
+    border-radius: 15px;
 }
 
 .viridian-green {
@@ -172,6 +175,7 @@ nav > ul > li > a.current-page:hover {
 }
 
 .cambridge-blue {
+    color: #333333;
     background-color: #A7C4B5;
 }
 
@@ -180,10 +184,10 @@ nav > ul > li > a.current-page:hover {
 }
 
 .hex-code {
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .color-name {
-    font-size: .9em;
+    font-size: .8em;
     opacity: 80%;
 }
