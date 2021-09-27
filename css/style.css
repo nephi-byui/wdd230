@@ -58,6 +58,10 @@ a:hover {
   color:#57B8FF;
 }
 
+
+
+/* header */
+
 #profile-photo {
   max-width: 200px;
   /* float: right; */ /* moved to medium.css */ 
@@ -68,8 +72,26 @@ a:hover {
   border-color: #eeeeee;
 }
 
+/* footer */
+
 footer {
   display: block;
   text-align: center;
   padding: 3em;
+}
+
+#home-button {
+  font-family: "Lato", sans-serif;
+  padding: .5em;
+  font-size: 1.25em;
+  background-color:#eeeeee;
+  color:#111111;
+  text-align: center;
+  border-radius: 15px;
+  transition: 1s;
+}
+
+#home-button:hover {
+  background-color: #57B8FF;
+  transition: 1s;
 }

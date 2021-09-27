@@ -1,0 +1,132 @@
+/* small / baseline */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Ubuntu:wght@400;700&display=swap");
+
+/* fonts for website plan */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Patua+One&family=Staatliches&display=swap');
+
+/*
+font-family: 'Merriweather', serif;
+font-family: 'Patua One', cursive;
+font-family: 'Staatliches', cursive; */
+
+body {
+  background-color: #111111;
+}
+
+p,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", sans-serif;
+  color: #dddddd;
+}
+
+header {
+  text-align: center;
+}
+
+
+h2 {
+  font-size: 1.5em;
+}
+
+img {
+  max-width: 100%;
+}
+
+#content {
+  color: #eeeeee;
+  max-width: 70em;
+  margin: auto;
+}
+
+main {
+  padding: 2em;
+  background-color: #005580;
+  border-radius: 5px;
+}
+
+a,
+a:visited {
+  transition: 1s;
+  color: #eeeeee;
+}
+
+a:hover {
+  transition: 1s;
+  color:#57B8FF;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  padding: 3em;
+}
+
+
+/* header */
+
+header {
+    display: block;
+}
+
+h1 {
+  font-family: "Ubuntu", "Open Sans", sans-serif;
+  font-size: 5em;
+}
+
+nav {
+    background-color: #3333FF;
+    padding: 0px;
+    font-weight: bold;
+}
+
+nav > ul > li {
+    padding: 1em;
+    list-style-type: none;
+}
+
+nav > ul > li > a,
+nav > ul > li > a:visited {
+    color: #bbbbbb;
+}
+
+nav > ul > li > a:hover{
+    color: #ffffff;
+}
+
+nav > ul > li > a.current-page {
+    color: #57B8FF;
+}
+
+nav > ul > li > a.current-page:hover {
+    color: #ffffff;
+}
+
+/* footer */
+
+#home-button {
+    font-family: "Lato", sans-serif;
+    padding: .5em;
+    font-size: 1.25em;
+    background-color:#eeeeee;
+    color:#111111;
+    text-align: center;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+#home-button:hover {
+    background-color: #57B8FF;
+    transition: 1s;
+}
+
+/* nav */
+
+    

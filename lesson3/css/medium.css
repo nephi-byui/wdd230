@@ -1,8 +1,16 @@
-@media screen and (min-width: 44em) {
+
+@media screen and (min-width: 32em) {
     nav ul {
         display: flex;
-    }
+        text-align: center;
+        padding: .5em;
+        }
     nav ul li {
-        flex: 1 1 100%; 
+        flex: 1 1 50%;
+
     } 
+    h1 {
+        font-size: 5em;
+    }
 }
+
