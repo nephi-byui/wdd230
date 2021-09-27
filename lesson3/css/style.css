@@ -129,6 +129,12 @@ nav > ul > li > a.current-page:hover {
 
 /* index */
 
+.domain-name {
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: .5em;
+}
+
 .domains-pic {
     max-width: 28em;
     border-radius: 1em;
