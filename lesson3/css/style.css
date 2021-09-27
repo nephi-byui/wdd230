@@ -42,7 +42,7 @@ img {
 
 #content {
   color: #eeeeee;
-  max-width: 70em;
+  max-width: 50em;
   margin: auto;
 }
 
@@ -127,6 +127,16 @@ nav > ul > li > a.current-page:hover {
     transition: 1s;
 }
 
-/* nav */
+/* index */
 
-    
+.domains-pic {
+    max-width: 28em;
+    border-radius: 1em;
+}
+
+.proposed-logo {
+    max-width: 24em;
+    background-color: #222222;
+    padding: 2em;
+    border-radius: 1em;
+}
