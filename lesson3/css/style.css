@@ -163,7 +163,7 @@ nav > ul > li > a.current-page:hover {
 .colorbox {
     padding: 1em;
     margin: 5px;
-    border-radius: 15px;
+    border-radius: 1em;
 }
 
 .viridian-green {
@@ -201,7 +201,7 @@ nav > ul > li > a.current-page:hover {
 /* target-audience.html */
 
 .persona-photo {
-    max-width: 24em;
+    border-radius: 1em;
 }
 
 .attribution {
