@@ -136,7 +136,7 @@ nav > ul > li > a.current-page:hover {
 }
 
 .domains-pic {
-    max-width: 28em;
+/*    max-width: 28em; */
     border-radius: 1em;
 }
 
