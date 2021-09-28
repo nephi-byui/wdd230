@@ -3,12 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Ubuntu:wght@400;700&display=swap");
 
 /* fonts for website plan */
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&family=Patua+One&family=Staatliches&display=swap');
-
-/*
-font-family: 'Merriweather', serif;
-font-family: 'Patua One', cursive;
-font-family: 'Staatliches', cursive; */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Patua+One&family=Staatliches&display=swap');
 
 body {
   background-color: #111111;
@@ -217,4 +212,46 @@ nav > ul > li > a.current-page:hover {
 
 .persona h4 {
     font-size: 2.5em;
+}
+
+
+/* typography.html */
+
+.font-box {
+    background-color: #333333;
+    color: white;
+    padding: 1em;
+    border-radius: 1em;
+    margin: 1em;
+}
+
+h4 {
+    font-size: 4em;
+    padding: 0em;
+    margin: 0em;
+}
+
+.font-staatliches {
+    font-family: Staatliches;
+    font-weight: 400;
+}
+
+.font-patua-one {
+    font-family: 'Patua One', cursive;
+    font-weight: 400;
+}
+
+.font-lato {
+    font-family: Lato;
+    font-weight: 400;
+}
+
+.font-desc {
+    color: cyan;
+    opacity: 50%;
+    font-family: Ubuntu;
+}
+
+.font-desc {
+    opacity: 50%;
 }
