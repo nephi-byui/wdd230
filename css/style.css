@@ -28,7 +28,8 @@ h1 {
 }
 
 h2 {
-  font-size: 1.5em;
+  margin-top: -1em;
+  font-size: 1.75em;
 }
 
 img {
@@ -94,4 +95,15 @@ footer {
 #home-button:hover {
   background-color: #57B8FF;
   transition: 1s;
+}
+
+/* footer-content */
+
+footer {
+  overflow: auto;
+}
+
+#footer-content {
+  max-width: 100%;
+  display: block;
 }
