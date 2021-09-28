@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Lato", sans-serif;
+  font-family: "Lato", Arial, sans-serif;
   color: #dddddd;
 }
 
@@ -31,10 +31,21 @@ header {
   text-align: center;
 }
 
+h1 {
+    font-family: "Ubuntu", "Open Sans", sans-serif;
+    font-size: 5em;
+  }
+  
 
 h2 {
-  font-size: 1.5em;
+    font-family: "Lato", Arial, sans-serif;
+    font-size: 2.5em;
+    margin-top: -.75em;
 }
+
+h2 {
+    font-size: 2.25em;
+  }
 
 img {
   max-width: 100%;
@@ -74,11 +85,6 @@ footer {
 
 header {
     display: block;
-}
-
-h1 {
-  font-family: "Ubuntu", "Open Sans", sans-serif;
-  font-size: 5em;
 }
 
 nav {
