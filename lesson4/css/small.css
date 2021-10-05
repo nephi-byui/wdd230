@@ -1,16 +1,42 @@
-/* Small/Phone View ***************/
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Patua+One&family=Staatliches&display=swap');
+
+/* base */
+
+:root {
+	--viridian: #0AA0A8;
+	--celadon: #BEFFC7;
+	--turquoise: #A9D8B8;
+	--cambridge-blue: #A7C4B5;
+	--jet-black: #2F2D2E;
+
+	--title-font: Staatliches, Helvetica, sans-serif;
+	--heading-font: 'Patua One', Georgia, serif;
+	--paragraph-font: Lato, Arial, sans-serif;
+
+}
+
+/* global */
+
+#content {
+	max-width: 100%;
+}
+
+
+/* Small/Phone View */
+
 nav {
+	text-align: center;
 	margin: 0 auto;
-	max-width: 760px;
 	background-color: tomato;
 }
 .navigation {
 	list-style: none;
 	padding: 0;
-}
+}/*
 .navigation li:first-child {
 	display: block;
-}
+} */
+
 .navigation li {
 	display: none;
 }
@@ -28,26 +54,27 @@ nav {
 	background-color: black;
 }
 
-/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the responsive class is added to the end of the class list like this in HTML.
+/* the onclick JS toggles the .reponsive class from display none (.navigation li) to display block because the visible class is added to the end of the class list like this in HTML.
   <ul class="navigation responsive">
 */
-.responsive li {
+
+.visible nav {
+	max-width: 32em;
+}
+
+.visible li {
 	display: block;
 }
 
-/* Media Query for medium+ views */
-@media only screen and (min-width: 32.5em) {
-	.navigation {
-		display: flex;
-	}
-	.navigation li {
-		display: block; /* change state in small view */
-		flex: 1 1 auto;
-	}
-	.navigation a {
-		text-align: center;
-	}
-	.navigation li:first-child {
-		display: none;
-	}
+
+/* preston */
+
+/* 5-day-forecast */
+
+.forecast-icons-box img {
+	display:none;
+}
+
+.forecast-icons-box li:first-child {
+	display: block;
 }

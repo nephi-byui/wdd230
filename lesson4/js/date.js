@@ -13,13 +13,13 @@ window.onload = setDate()
 
 /* menu */
 
-const hambutton = document.querySelector('.top-nav');
+const menubutton = document.querySelector('.nav-toggle');
 const mainnav = document.querySelector('.navigation')
 
-hambutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
+menubutton.addEventListener('click', () => {mainnav.classList.toggle('visible')}, false);
 
 // To solve the mid resizing issue with responsive class on
-window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('responsive')};
+window.onresize = () => {if (window.innerWidth > 760) mainnav.classList.remove('visible')};
 
 /*** Programming Notes **************************************
   Arrow Functions - es6 syntactically compact alternative to a regular function expression
