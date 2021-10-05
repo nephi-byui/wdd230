@@ -22,13 +22,18 @@
 
     <div id="content">
         <header>
-            <img id="site-logo">
-            <h2>Stormwatch Tower</h2>
-            <h3>Daily Stormwatch Bay Weather Updates</h3>
-            <a class="nav-toggle" href="#">&#9776;</a>
+            <div class="upper-header">
+                <img id="site-logo" src="https://via.placeholder.com/128x128?text=SW">
+                <section class=site-title>
+                    <h2>Stormwatch Tower</h2>
+                    <h3>Daily Weather Updates</h3>
+                </section>
+
+                <button class="nav-toggle"><a href="#"></a>&#9776;</a></button>
+            </div>           
+            
             <nav>
-                <ul class="navigation">
-                    
+                <ul class="navigation">                    
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Preston</a></li>
                     <li><a href="#">Soda Springs</a></li>
@@ -48,8 +53,9 @@
                 <p>A large and anomalous upper-level low is coming up against Idaho this morning, and will slowly move north throughout the next week. Precipitation is all but certain. Wear layers and prepare for rain.</p>
             </section>
 
-            <section id="five-day-forecast-section">
-                
+            <section id="five-day-forecast-section" style="background-color: purple;">
+                <h3>Five Day Forecast</h3>
+
                 <div class="forecast-icons-box">
                     <img src="https://via.placeholder.com/64x64?text=DAY1">
                     <img src="https://via.placeholder.com/64x64?text=DAY2">
@@ -58,15 +64,19 @@
                     <img src="https://via.placeholder.com/64x64?text=DAY5">
                 </div>
 
-                <h3>Article Title</h3>
+                <section class="forecast-article-section">
 
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt tellus ac mattis vehicula. Phasellus vitae laoreet velit. Vestibulum consequat tortor neque, non laoreet neque placerat eu. Phasellus pulvinar justo metus, gravida dictum lectus facilisis ut. Duis bibendum interdum elit, in venenatis mauris ullamcorper sed. Praesent semper est ac neque vestibulum, iaculis faucibus mi facilisis. Etiam non diam tincidunt, mollis velit quis, faucibus nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
+                    <h3>Article Title</h3>
 
-                <p>Nulla pellentesque ultricies nibh, id scelerisque sem volutpat eu. Suspendisse iaculis sodales leo in dictum. Cras condimentum velit eu tellus luctus, vel blandit sem tincidunt. Donec sit amet ornare dui. Sed tempus enim ipsum, at eleifend ipsum ullamcorper quis. Proin molestie viverra nisl nec hendrerit. Nunc hendrerit diam eget blandit ultricies. Pellentesque sit amet condimentum urna. Nulla tempor, nibh quis porttitor fringilla, purus nibh tincidunt nibh, vitae commodo orci nulla nec sem. Etiam gravida id dolor sed posuere. Morbi et diam vestibulum, faucibus elit in, auctor ligula. Sed cursus posuere mauris mattis iaculis. Ut nec ante ornare, ultricies justo et, laoreet diam. Cras vehicula magna at leo faucibus, quis eleifend mi congue.</p>
-                    
-                <p>Sed massa dolor, porta eget interdum sit amet, luctus viverra ipsum. Donec sit amet vulputate felis, maximus venenatis arcu. Donec sed nisl non augue maximus vestibulum. Sed tincidunt ultricies libero, in ultrices mi condimentum sed. Fusce sodales ullamcorper ultricies. Pellentesque sed consequat nisl, sed luctus leo. Etiam rhoncus augue id nulla placerat sodales. Aenean non est risus. Duis blandit tempus eros ut dictum. Phasellus id tincidunt ante, eget vehicula tellus. Curabitur nec tellus blandit, ornare velit dapibus, finibus enim. Sed ut felis malesuada, ornare erat ac, volutpat nulla. Nunc rhoncus libero justo, ac sagittis massa facilisis non. Aliquam ac lacinia velit, id laoreet mauris. Aenean non odio ac velit eleifend congue. Morbi nulla nulla, ultricies eget elit vel, euismod egestas erat.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt tellus ac mattis vehicula. Phasellus vitae laoreet velit. Vestibulum consequat tortor neque, non laoreet neque placerat eu. Phasellus pulvinar justo metus, gravida dictum lectus facilisis ut. Duis bibendum interdum elit, in venenatis mauris ullamcorper sed. Praesent semper est ac neque vestibulum, iaculis faucibus mi facilisis. Etiam non diam tincidunt, mollis velit quis, faucibus nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
 
-                <img src="https://via.placeholder.com/960x256?text=Article+Image">
+                    <p>Nulla pellentesque ultricies nibh, id scelerisque sem volutpat eu. Suspendisse iaculis sodales leo in dictum. Cras condimentum velit eu tellus luctus, vel blandit sem tincidunt. Donec sit amet ornare dui. Sed tempus enim ipsum, at eleifend ipsum ullamcorper quis. Proin molestie viverra nisl nec hendrerit. Nunc hendrerit diam eget blandit ultricies. Pellentesque sit amet condimentum urna. Nulla tempor, nibh quis porttitor fringilla, purus nibh tincidunt nibh, vitae commodo orci nulla nec sem. Etiam gravida id dolor sed posuere. Morbi et diam vestibulum, faucibus elit in, auctor ligula. Sed cursus posuere mauris mattis iaculis. Ut nec ante ornare, ultricies justo et, laoreet diam. Cras vehicula magna at leo faucibus, quis eleifend mi congue.</p>
+                        
+                    <p>Sed massa dolor, porta eget interdum sit amet, luctus viverra ipsum. Donec sit amet vulputate felis, maximus venenatis arcu. Donec sed nisl non augue maximus vestibulum. Sed tincidunt ultricies libero, in ultrices mi condimentum sed. Fusce sodales ullamcorper ultricies. Pellentesque sed consequat nisl, sed luctus leo. Etiam rhoncus augue id nulla placerat sodales. Aenean non est risus. Duis blandit tempus eros ut dictum. Phasellus id tincidunt ante, eget vehicula tellus. Curabitur nec tellus blandit, ornare velit dapibus, finibus enim. Sed ut felis malesuada, ornare erat ac, volutpat nulla. Nunc rhoncus libero justo, ac sagittis massa facilisis non. Aliquam ac lacinia velit, id laoreet mauris. Aenean non odio ac velit eleifend congue. Morbi nulla nulla, ultricies eget elit vel, euismod egestas erat.</p>
+
+                    <img src="https://via.placeholder.com/960x256?text=Article+Image">
+
+                </section>
 
             </section>
 
@@ -76,12 +86,12 @@
 
             <section id="contact-section">
                 <h3>Contact Information</h3>
-                <li>&#8615; Address Text</li>
+                <li class="hide-on-small-view">&#8615; Address Text</li>
                 <li>&#9993; 123 456 789</li>
                 <li>&#9742; place@holder.mail</li>
             </section>
 
-            <section id="social-links">
+            <section class="social-links-section hide-on-small-view">
                 <img src="https://via.placeholder.com/32x32?text=f">
                 <img src="https://via.placeholder.com/32x32?text=t">
                 <img src="https://via.placeholder.com/32x32?text=i">

@@ -1,0 +1,6 @@
+/* Media Query for large/desktop views */
+@media only screen and (min-width: 60em) {
+    #content {
+        max-width: 960px;
+    }
+}
