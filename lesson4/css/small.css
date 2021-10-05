@@ -3,8 +3,8 @@
 
 	/* page */
 
-	.forecast-icons-box img {
-		display: none;
+	.forecast-icons-box {
+		display: none; /* hide icons for medium and large */
 	}
 	
 	.hide-on-small-view {

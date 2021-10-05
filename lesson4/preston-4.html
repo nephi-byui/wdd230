@@ -23,7 +23,7 @@
     <div id="content">
         <header>
             <div class="upper-header">
-                <img id="site-logo" src="https://via.placeholder.com/128x128?text=SW">
+                <img id="site-logo" src="images/logo.svg">
                 <section class=site-title>
                     <h2>Stormwatch Tower</h2>
                     <h3>Daily Weather Updates</h3>
@@ -45,7 +45,8 @@
         </header>
 
         <main>
-            <h1>Preston Idaho</h1>
+            <h1 id="page-title">Preston Idaho</h1>
+
             <img id="hero-image" src="https://via.placeholder.com/960x256?text=Hero+Image">
             
             <section id="weather-summary-section">
@@ -53,8 +54,10 @@
                 <p>A large and anomalous upper-level low is coming up against Idaho this morning, and will slowly move north throughout the next week. Precipitation is all but certain. Wear layers and prepare for rain.</p>
             </section>
 
-            <section id="five-day-forecast-section" style="background-color: purple;">
-                <h3>Five Day Forecast</h3>
+            <section id="five-day-forecast-section">
+                <div class="five-day-forecast-section-header">
+                    <h3>Five Day Forecast</h3>
+                </div>
 
                 <div class="forecast-icons-box">
                     <img src="https://via.placeholder.com/64x64?text=DAY1">
@@ -65,8 +68,7 @@
                 </div>
 
                 <section class="forecast-article-section">
-
-                    <h3>Article Title</h3>
+                    <h4>Article Title</h4>
 
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt tellus ac mattis vehicula. Phasellus vitae laoreet velit. Vestibulum consequat tortor neque, non laoreet neque placerat eu. Phasellus pulvinar justo metus, gravida dictum lectus facilisis ut. Duis bibendum interdum elit, in venenatis mauris ullamcorper sed. Praesent semper est ac neque vestibulum, iaculis faucibus mi facilisis. Etiam non diam tincidunt, mollis velit quis, faucibus nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
 
@@ -86,9 +88,11 @@
 
             <section id="contact-section">
                 <h3>Contact Information</h3>
-                <li class="hide-on-small-view">&#8615; Address Text</li>
-                <li>&#9993; 123 456 789</li>
-                <li>&#9742; place@holder.mail</li>
+                <ul>
+                    <li class="hide-on-small-view">&#8615; Address Text</li>
+                    <li>&#9993; 123 456 789</li>
+                    <li>&#9742; place@holder.mail</li>
+                </ul>
             </section>
 
             <section class="social-links-section hide-on-small-view">
@@ -99,8 +103,12 @@
 
             <img src="https://via.placeholder.com/640x240?text=Map" id="footer-map">
 
-            <p>Copyright &copy; <span id="footer-date">Friday, October 1, 2021</span> | Nephi Malit<br>
-            <a href="https://www.byui.edu/online" title="BYU-Idaho Online Learning" rel="nofollow">BYU-Idaho Online Learning</a></p>
+            <section class="copyright">
+                <p>Copyright &copy; <span id="footer-date">Friday, October 1, 2021</span><br>
+                    <a href="https://nephi-byui.github.io/wdd230/">Nephi Malit</a><br>
+                <a href="https://www.byui.edu/online" title="BYU-Idaho Online Learning" rel="nofollow">BYU-Idaho Online Learning</a></p>
+            </section>
+            
             <script src="js/date.js"></script>           
         </footer>
         

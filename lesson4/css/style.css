@@ -30,12 +30,23 @@ html {
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--jet-black);
+    font-weight: 400;
+}
+
+h2, h3, h4 {
+    font-size: 1.75em;
+    padding: .5em;
+}
+
+p {
+    padding: .5em;
+    margin: .5em;
 }
 
 /* HEADER */
 
 header {
-    margin-top: -10px;
+    margin-top: -11px;
     padding-top: 0px;
 	background-color: var(--jet-black);
 	color: var(--almost-white);
@@ -43,11 +54,13 @@ header {
 
 header a:visited {
 	color: var(--almost-white);
+
 }
 
 .upper-header {
 	display: flex;
 	align-items: center;
+    margin-bottom: -20px;
 }
 
 #site-logo {
@@ -158,17 +171,52 @@ nav {
 	padding: .5em;
 }
 
+#page-title {
+    font-size: 2em;
+    padding: .5em;
+}
+
+#hero-image {
+    margin: 0;
+    padding: 0;
+}
+
 #weather-summary-section {
 	margin: auto;
 	padding: .5em;
-	background-color: red;
+	background-color: var(--jet-black);
 }
 
-/* footer */
-
-
+#weather-summary-section h3,
+#weather-summary-section p {
+    font-weight: 400;
+    color: var(--almost-white);
+}
 
 /* 5-day-forecast */
+
+#five-day-forecast-section {
+   margin: 0;
+   margin-top: 1em;
+
+   border-style: solid;
+   border-color: var(--jet-black);
+   border-width: .25em;
+
+   border-radius: 10px;
+   
+}
+
+.five-day-forecast-section-header {
+    padding-top: 0px;
+    margin-top: -1.75em;
+    text-align: center;
+    background-color: var(--jet-black);    
+}
+
+.five-day-forecast-section-header h3 {
+    color: var(--almost-white);
+}
 
 .forecast-icons-box {
 	display: flex;
@@ -180,7 +228,39 @@ nav {
 	padding: .5em;
 }
 
+.forecast-article-section h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
 
+.forecast-article-section img {
+    display: block;
+    margin: auto;
+}
 
-/* preston */
+/* FOOTER */
 
+#contact-section {
+    padding-bottom: 1em;
+}
+
+#contact-section ul {
+    margin: 0;
+    list-style: none;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.copyright a,
+.copyright a:visited {
+    font-weight: bold;
+    color: var(--viridian);
+    transition: 0.5s;
+}
+
+.copyright a:hover {
+    color: var(--jet-black);
+    transition: 0.5s;
+}
