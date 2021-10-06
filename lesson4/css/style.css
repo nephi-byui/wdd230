@@ -185,6 +185,8 @@ nav {
 #weather-summary-section {
 	margin: auto;
 	padding: .5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
 	background-color: var(--jet-black);
 }
 
@@ -192,12 +194,14 @@ nav {
 #weather-summary-section p {
     font-weight: 400;
     color: var(--almost-white);
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 /* 5-day-forecast */
 
 #five-day-forecast-section {
-   margin: 0;
+   margin: 0px;
    margin-top: 1em;
 
    border-style: solid;
