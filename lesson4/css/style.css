@@ -201,7 +201,7 @@ nav {
 
    border-style: solid;
    border-color: var(--jet-black);
-   border-width: .25em;
+   border-width: .3em;
 
    border-radius: 10px;
    
@@ -209,7 +209,7 @@ nav {
 
 .five-day-forecast-section-header {
     padding-top: 0px;
-    margin-top: -1.75em;
+    margin-top: -1.8em;
     text-align: center;
     background-color: var(--jet-black);    
 }
