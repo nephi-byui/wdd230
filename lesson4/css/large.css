@@ -1,5 +1,5 @@
 /* Media Query for large/desktop views */
-@media only screen and (min-width: 56em) {
+@media only screen and (min-width: 50em) {
     #content {
         max-width: 960px;
     }

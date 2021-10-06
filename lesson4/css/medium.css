@@ -1,5 +1,5 @@
 /* Media Query for medium+ views */
-@media only screen and (min-width: 32em) {
+@media only screen and (min-width: 36em) {
 	.navigation {
 		display: flex;
 	}
@@ -28,14 +28,6 @@
 	}
 
 	/* main preston */
-
-	#weather-summary-section {
-		order: 10;
-	}
-
-	#hero-image {
-		order: 2;
-	}
 
 	#five-day-forecast-section {
 		border-style: none;
