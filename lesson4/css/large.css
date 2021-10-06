@@ -1,6 +1,28 @@
 /* Media Query for large/desktop views */
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 960px) {
     #content {
         max-width: 960px;
+    }
+
+    #weather-summary-section {
+        display: grid;
+    }
+
+    .inset {
+        position: absolute;
+		margin-top: 15px;
+		margin-left: 15px;
+		width: 20em;
+		height: 13em;
+
+        padding:.25em;
+		background-color: var(--jet-black);
+
+		order: 1;
+	}
+
+    #hero-image {
+        grid-column: 1/2;
+        height: auto;
     }
 }

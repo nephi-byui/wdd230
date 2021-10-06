@@ -24,5 +24,49 @@
 
 	.hide-on-small-view {
 		display: block;
+
 	}
+
+	/* main preston */
+
+	#weather-summary-section {
+		order: 10;
+	}
+
+	#hero-image {
+		order: 2;
+	}
+
+	#five-day-forecast-section {
+		border-style: none;
+	}
+
+	.five-day-forecast-section-header {
+		background-color: var(--celadon);
+		text-align: left;
+	}
+
+	.five-day-forecast-section-header h3 {
+		color: var(--jet-black);
+	}
+
+	.forecast-icons-box {
+		border-style: solid;
+		border-radius: 10px;
+		margin-bottom: .25em;
+	}
+
+	.forecast-article-section {
+		border-style: solid;
+		border-radius: 10px;
+
+		margin-top: .25em
+	}
+
+	.forecast-article-section img {
+		float: right;
+		padding: 1em;
+		max-width: 300px;
+	}
+
 }
