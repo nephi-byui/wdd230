@@ -243,6 +243,11 @@ nav {
     color: var(--almost-white);
 }
 
+/* hidden by default on small */
+.forecast-icons-box {
+    display: none; 
+}
+
 .forecast-icons-box {
 	display: flex;
 	align-items: center;
@@ -291,6 +296,7 @@ nav {
     color: var(--jet-black);
     transition: 0.5s;
 }
+
 
 .hide-on-small-view {
     display: none;
