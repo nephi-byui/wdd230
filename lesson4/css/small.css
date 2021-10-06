@@ -280,12 +280,12 @@ nav {
 .copyright a,
 .copyright a:visited {
     font-weight: bold;
-    color: var(--viridian);
+    color: var(--jet-black);
     transition: 0.5s;
 }
 
 .copyright a:hover {
-    color: var(--jet-black);
+    color: blue;
     transition: 0.5s;
 }
 
