@@ -48,8 +48,21 @@ p {
 header {
     margin-top: -11px;
     padding-top: 0px;
-	background-color: var(--jet-black);
 	color: var(--almost-white);
+/*
+    margin-left: -10000px;
+    margin-right: -10000px;
+
+    text-align: center;
+    display: grid;*/
+}
+
+#header-content {
+    margin: auto;
+    max-width: 960px;
+    background-color: var(--jet-black);
+
+
 }
 
 header a:visited {
@@ -200,7 +213,14 @@ nav {
 
 /* 5-day-forecast */
 
+.forecast-icons-box img {
+    max-width: 64px;
+    max-height: 64px;
+}
+
 #five-day-forecast-section {
+    
+
    margin: 0px;
    margin-top: 1em;
 
@@ -239,8 +259,8 @@ nav {
     margin-bottom: 0px;
 }
 
-.forecast-article-section img {
-    display: block;
+.forecast-article-section img { /*
+    display: block; */
     margin: auto;
 }
 
@@ -270,3 +290,8 @@ nav {
     color: var(--jet-black);
     transition: 0.5s;
 }
+
+.hide-on-small-view {
+    display: none;
+}
+
