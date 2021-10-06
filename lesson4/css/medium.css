@@ -1,5 +1,5 @@
 /* Media Query for medium+ views */
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 33em) {
 	.navigation {
 		display: flex;
 	}

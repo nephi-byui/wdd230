@@ -95,6 +95,7 @@ header a:visited {
 }
 
 .nav-toggle {
+    text-align: center;
     height: 1.5em;
     width: 1.5em;
 	font-size: 2em;
@@ -131,7 +132,7 @@ nav {
 }
 
 .navigation li {
-    font-size: 1.5em;
+    font-size: 1.25em;
     font-weight: 400;
     font-family: var(--heading-font);
     background-color: var(--viridian);
@@ -208,9 +209,12 @@ nav {
 }
 
 .five-day-forecast-section-header {
+    margin-left: -5px;
+    margin-right: -5px;
     padding-top: 0px;
     margin-top: -1.8em;
     text-align: center;
+    border-radius: 10px 10px 0px 0px;
     background-color: var(--jet-black);    
 }
 
