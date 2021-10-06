@@ -11,6 +11,10 @@
 		display: none;
 	}
 
+	#content {
+		max-width: 32em;
+	}
+
 
 }
 
