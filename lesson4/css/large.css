@@ -1,8 +1,10 @@
 /* Media Query for large/desktop views */
-@media only screen and (min-width: 960px) {
+@media only screen and (min-width: 56em) {
     #content {
         max-width: 960px;
     }
+
+    /* inset on hero image */
 
     #weather-summary-section {
         display: grid;
@@ -25,6 +27,8 @@
         grid-column: 1/2;
         height: auto;
     }
+
+    /* end inset on hero image */
 
 
 

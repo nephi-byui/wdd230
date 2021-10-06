@@ -1,5 +1,5 @@
 /* Media Query for medium+ views */
-@media only screen and (min-width: 33em) {
+@media only screen and (min-width: 32em) {
 	.navigation {
 		display: flex;
 	}
@@ -51,9 +51,19 @@
 	}
 
 	.forecast-icons-box {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
 		border-style: solid;
 		border-radius: 10px;
 		margin-bottom: .25em;
+	}
+	
+	.forecast-icons-box img {
+		padding: .5em;
+		padding-left: 1.5em;
+		padding-right: 1.5em;
 	}
 
 	.forecast-article-section {

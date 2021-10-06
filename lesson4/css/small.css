@@ -1,10 +1,292 @@
-@media only screen and (max-width: 40em) {
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Patua+One&family=Staatliches&display=swap');
+
+/* global */
+
+:root {
+	--viridian: #0AA0A8; /* nav */
+	--celadon: #BEFFC7;
+	--turquoise: #A9D8B8;
+	--cambridge-blue: #A7C4B5;
+	--jet-black: #222222;
+
+    --almost-white: #eeeeee;
+
+	--title-font: Staatliches, Helvetica, sans-serif;
+	--heading-font: 'Patua One', Georgia, serif;
+	--paragraph-font: Lato, Arial, sans-serif;
+
+}
+
+img {
+	max-width: 100%;
+}
+
+html {
+    background-color: var(--celadon);
+    font-family: var(--paragraph-font);
+    color: var(--jet-black);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--jet-black);
+    font-weight: 400;
+}
+
+h2, h3, h4 {
+    font-size: 1.75em;
+    padding: .5em;
+}
+
+p {
+    padding: .5em;
+    margin: .5em;
+}
+
+/* HEADER */
+
+header {
+    margin-top: -11px;
+    padding-top: 0px;
+	color: var(--almost-white);
+/*
+    margin-left: -10000px;
+    margin-right: -10000px;
+
+    text-align: center;
+    display: grid;*/
+}
+
+#header-content {
+    margin: auto;
+    max-width: 960px;
+    background-color: var(--jet-black);
 
 
-	/* page */
+}
+
+header a:visited {
+	color: var(--almost-white);
+
+}
+
+.upper-header {
+	display: flex;
+	align-items: center;
+    margin-bottom: -20px;
+}
+
+#site-logo {
+	width: 5em;
+	padding: 1em;
+}
+
+.site-title {
+	display: block;
+	padding: 1em;
+    
+}
+
+.site-title h2 {
+	font-family: var(--title-font);
+	font-size: 2.2em;
+	margin: 0;
+	margin-left: -1em;
+	padding: 0.5em;
+    color: var(--almost-white);
+}
+
+.site-title h3 {
+	font-family: var(--heading-font);
+	font-weight: 400;
+	font-size: 1.2em;
+	margin: 0;
+	margin-left: -1.4em;
+	margin-top: -1em;
+	padding: 0.5em;
+    color:var(--almost-white);
+}
+
+.nav-toggle {
+    text-align: center;
+    height: 1.5em;
+    width: 1.5em;
+	font-size: 2em;
+	margin-right: .5em;
+	margin-left: auto;
+    font-family: var(--heading-font);
+
+    background-color: var(--viridian);
+    border-style: none;
+    color: var(--almost-white);
+    font-weight: bold;
+    border-radius: 10px;
+
+    transition: 1s;
+}
+
+.nav-toggle:hover {
+    background-color: var(--celadon);
+    color: var(--jet-black);
+
+    transition: 1s;
+}
 
 
+	/* nav */
+
+nav {
+    text-align: center;
+    margin: 0 auto;
+}
+.navigation {
+    list-style: none;
+    padding: 0;
+}
+
+.navigation li {
+    font-size: 1.25em;
+    font-weight: 400;
+    font-family: var(--heading-font);
+    background-color: var(--viridian);
+    color: white;
+    display: none;
+}
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+}
+.navigation a:hover {
+    color: white;
+    background-color: black;
+}
+
+.visible nav {
+    max-width: 32em;
+}
+
+.visible li {
+    display: block;
+}
+
+	/* end nav */
+
+/* main */
+
+#content {
+	max-width: 100%;
+	max-width: 960px;
+	margin: auto;
+	padding: .5em;
+}
+
+#page-title {
+    font-size: 2em;
+    padding: .5em;
+}
+
+#hero-image {
+    margin: 0;
+    padding: 0;
+}
+
+#weather-summary-section {
+	margin: auto;
+	padding: .5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+	background-color: var(--jet-black);
+}
+
+#weather-summary-section h3,
+#weather-summary-section p {
+    font-weight: 400;
+    color: var(--almost-white);
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/* 5-day-forecast */
+
+.forecast-icons-box img {
+    max-width: 64px;
+    max-height: 64px;
+}
+
+#five-day-forecast-section {
+    
+
+   margin: 0px;
+   margin-top: 1em;
+
+   border-style: solid;
+   border-color: var(--jet-black);
+   border-width: .3em;
+
+   border-radius: 10px;
+   
+}
+
+.five-day-forecast-section-header {
+    padding-top: 0px;
+    margin-top: -1.8em;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    background-color: var(--jet-black);    
+}
+
+.five-day-forecast-section-header h3 {
+    color: var(--almost-white);
+}
+
+/* hidden by default on small */
+.forecast-icons-box {
+    display: none; 
+}
+
+.forecast-article-section h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.forecast-article-section img { /*
+    display: block; */
+    margin: auto;
+}
+
+/* FOOTER */
+
+#contact-section {
+    padding-bottom: 1em;
+}
+
+#contact-section ul {
+    margin: 0;
+    list-style: none;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.copyright a,
+.copyright a:visited {
+    font-weight: bold;
+    color: var(--viridian);
+    transition: 0.5s;
+}
+
+.copyright a:hover {
+    color: var(--jet-black);
+    transition: 0.5s;
+}
 
 
+.hide-on-small-view {
+    display: none;
 }
 
