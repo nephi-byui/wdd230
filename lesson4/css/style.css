@@ -248,18 +248,6 @@ nav {
     display: none; 
 }
 
-.forecast-icons-box {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-}
-
-.forecast-icons-box img {
-	padding: .5em;
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-}
-
 .forecast-article-section h4 {
     margin-top: 0px;
     margin-bottom: 0px;
