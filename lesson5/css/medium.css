@@ -65,7 +65,12 @@
 		margin-top: .25em
 	}
 
-	.forecast-article-section-medium-img {
+	.article-paragraphs {
+		display: block;
+	}
+
+	.forecast-article-section img {
+		display: block;
 		float: right;
 		padding: 1em;
 		max-width: 300px;

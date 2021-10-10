@@ -262,6 +262,24 @@ nav {
     margin: auto;
 }
 
+/* image should be at bottom in small view
+    use one-column grid to swap position
+    with with paragraphs */
+
+.article-paragraphs {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2;
+}
+
+.article-text {
+    grid-row: 1/2;
+}
+
+.article-paragraphs img {
+    grid-row: 2/3;
+}
+
 /* FOOTER */
 
 #contact-section {
