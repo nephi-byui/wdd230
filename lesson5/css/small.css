@@ -114,13 +114,18 @@ header a:visited {
     color:var(--almost-white);
 }
 
+
+
+
+	/* nav */
+
 .nav-toggle {
     text-align: center;
     height: 1.5em;
     width: 1.5em;
-	font-size: 2em;
-	margin-right: .5em;
-	margin-left: auto;
+    font-size: 2em;
+    margin-right: .5em;
+    margin-left: auto;
     font-family: var(--heading-font);
 
     background-color: var(--viridian);
@@ -138,10 +143,6 @@ header a:visited {
 
     transition: 1s;
 }
-
-
-	/* nav */
-
 nav {
     text-align: center;
     margin: 0 auto;
@@ -167,10 +168,18 @@ nav {
     color: black;
     transition: 1s;
 }
+
+.navigation a.active {
+    color: white;
+    background-color: var(--absolute-zero);
+}
+
 .navigation a:hover {
     color: white;
     background-color: black;
 }
+
+
 
 .visible nav {
     max-width: 32em;
