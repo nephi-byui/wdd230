@@ -1,0 +1,35 @@
+/* Media Query for large/desktop views */
+@media only screen and (min-width: 50em) {
+    #content {
+        max-width: 960px;
+    }
+
+    /* inset on hero image */
+
+    #weather-summary-section {
+        display: grid;
+    }
+
+    .inset {
+        position: absolute;
+		margin-top: 15px;
+		margin-left: 15px;
+		width: 20em;
+		height: 13em;
+
+        padding:.25em;
+		background-color: var(--jet-black);
+
+		order: 1;
+	}
+
+    #hero-image {
+        grid-column: 1/2;
+        height: auto;
+    }
+
+    /* end inset on hero image */
+
+
+
+}
