@@ -20,3 +20,23 @@ menubutton.addEventListener('click', () => {mainnav.classList.toggle('visible')}
 
 // if nav is open and viewport is resized, the nav will close, and not come back even if viewport becomes small again
 window.onresize = () => {if (window.innerWidth > 960) mainnav.classList.remove('visible')};
+
+
+/* friday banner */
+
+const fridayBanner = document.querySelector('#friday-banner')
+
+
+
+function getBanner() {
+  date = new Date();
+  day = date.getDay();
+  if (day == 5) {
+  // friday = 5
+  fridayBanner.className = "visible";
+  }
+}
+
+
+window.onload = getBanner()
+;
