@@ -28,7 +28,11 @@
         height: auto;
     }
 
-    /* end inset on hero image */
+    /* HIDE / SHOW */
+
+    .banner-break {
+		display:none
+	}
 
 
 

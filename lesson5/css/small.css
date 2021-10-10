@@ -23,6 +23,9 @@ img {
 }
 
 html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+
     background-color: var(--celadon);
     font-family: var(--paragraph-font);
     color: var(--jet-black);
@@ -379,9 +382,42 @@ ul.footer-contact li:before {
 
 }
 
+/* friday-banner */
+
+#friday-banner {
+    margin-left: -6000px;
+    margin-right: -6000px;
+    display: flex;
+    justify-content: center;
+}
+
+#friday-banner div.text-wrapper {
+    overflow: visible;
+    margin: auto;/*
+    max-width: 100%;
+    display: block;*/
+    background-color: var(--absolute-zero);
+    text-align: center;
+    font-size: 1em;
+    padding: 1em;
+}
+
+
 /* HIDE OR SHOW */
 
 /* HIDE by default (small view) */
+
+#friday-banner {
+    display: none;
+}
+
+.break-for-small {
+    display:inline-block
+}
+
+#friday-banner.visible {
+    display: block;
+}
 
 .forecast-icons-box {
     display: none; 
