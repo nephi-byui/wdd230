@@ -7,6 +7,7 @@
 	--celadon: #BEFFC7;
 	--turquoise: #A9D8B8;
 	--cambridge-blue: #A7C4B5;
+    --absolute-zero: #0F46BD;
 	--jet-black: #222222;
 
     --almost-white: #eeeeee;
@@ -31,6 +32,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--jet-black);
     font-weight: 400;
+    margin-bottom: 0;
 }
 
 h2, h3, h4 {
@@ -280,6 +282,16 @@ nav {
 
 /* FOOTER */
 
+footer {
+    background-color: var(--jet-black);
+    color: var(--almost-white);
+}
+
+footer h3 {
+    color: var(--almost-white);
+    margin-bottom: 0;
+}
+
 #contact-section {
     padding-bottom: 1em;
 }
@@ -296,12 +308,12 @@ nav {
 .copyright a,
 .copyright a:visited {
     font-weight: bold;
-    color: var(--jet-black);
+    color: var(--almost-white);
     transition: 0.5s;
 }
 
 .copyright a:hover {
-    color: blue;
+    color: var(--viridian);
     transition: 0.5s;
 }
 
@@ -331,6 +343,31 @@ ul.footer-contact li:before {
 
 .footer-email:before {
     content: "\2709";
+}
+
+/* footer social links */
+
+.social-links {
+    font-size: 5em;
+    padding-top: .25em;
+}
+
+.social-links a,
+.social-links a:visited {
+    color: var(--jet-black);
+    color: var(--almost-white);
+    transition: 1s;
+    opacity: 85%;
+}
+
+.social-links a:hover {
+    color: var(--viridian);
+    opacity: 100%;
+}
+
+.social-links i {
+    display: block;
+
 }
 
 /* HIDE OR SHOW */
