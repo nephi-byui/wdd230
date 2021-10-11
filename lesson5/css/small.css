@@ -310,6 +310,11 @@ footer {
     color: var(--almost-white);
 }
 
+footer {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
 footer h3 {
     color: var(--almost-white);
     margin-bottom: 0;
@@ -324,11 +329,11 @@ footer a:hover {
     color: var(--viridian);
 }
 
-#contact-section {
+.contact-section {
     padding-bottom: 1em;
 }
 
-#contact-section ul {
+.contact-section ul {
     margin: 0;
     list-style: none;
 }
