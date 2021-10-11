@@ -83,20 +83,21 @@ header a:visited {
 }
 
 #site-logo {
-	width: 5em;
-	padding: 1em;
+	max-width: 5em;
+	padding: .5em;
 }
 
 .site-title {
 	display: block;
-	padding: 1em;
+	padding: .5em;
 }
 
 .site-title h2 {
 	font-family: var(--title-font);
-	font-size: 2.2em;
+	font-size: 1.85em;
 	margin: 0;
-	margin-left: -1em;
+    margin-bottom: -.8em;
+	margin-left: -1.2em;
 	padding: 0.5em;
     color: var(--almost-white);
 }
@@ -104,9 +105,9 @@ header a:visited {
 .site-title h3 {
 	font-family: var(--heading-font);
 	font-weight: 400;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	margin: 0;
-	margin-left: -1.4em;
+	margin-left: -1.65em;
 	margin-top: -1em;
 	padding: 0.5em;
     color:var(--almost-white);

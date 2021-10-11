@@ -29,6 +29,33 @@
 		margin: .5em;
 	}
 
+	/* header */
+
+	.site-title {
+		display: block;
+		padding: 1em;
+	}
+	
+	.site-title h2 {
+		font-family: var(--title-font);
+		font-size: 2.25em;
+		margin: 0;
+		margin-left: -1.2em;
+		padding: 0.5em;
+		color: var(--almost-white);
+	}
+	
+	.site-title h3 {
+		font-family: var(--heading-font);
+		font-weight: 400;
+		font-size: 1.25em;
+		margin: 0;
+		margin-left: -1.75em;
+		margin-top: -1.5em;
+		padding: 0.5em;
+		color:var(--almost-white);
+	}
+
 	/* nav */
 
 	.nav-toggle {
