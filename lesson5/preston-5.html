@@ -55,7 +55,11 @@
         </header>
 
         <main>
-            <h1 id="page-title">Preston Idaho</h1>
+            <div class="page-title-container">
+                <div class="title-stripe">
+                    <h1 class="page-title">Preston Idaho</h1>
+                </div>
+            </div>
 
             <div class="hero-section">
                 <img class="hero-image" src="images/preston_idaho_hero_image.png" alt="a picture of the waterfront on the coastal city of Preston, Idaho" title="Photo by Stevan Aksentijevic from Pexels">
@@ -67,7 +71,7 @@
             </div>
 
             <section class="forecast-section">
-                <div class="five-day-forecast-section-header">
+                <div class="header-wrapper">
                     <h3>Five Day Forecast</h3>
                 </div>
 
@@ -77,30 +81,19 @@
                     <i class="fas fa-cloud-sun" alt="cloud with sun behind it"></i>
                     <i class="fas fa-cloud-moon-rain" alt="raincloud with moon behind it"></i>
                     <i class="fas fa-cloud-meatball" alt="cloud raining meatballs"></i>
-                    <!--
-                    <img src="images/weather_icon.svg" alt="weather icon with sun and clouds">
-                    <img src="images/weather_icon.svg" alt="weather icon with sun and clouds">
-                    <img src="images/weather_icon.svg" alt="weather icon with sun and clouds">
-                    <img src="images/weather_icon.svg" alt="weather icon with sun and clouds">
-                    <img src="images/weather_icon.svg" alt="weather icon with sun and clouds"> -->
                 </div>
 
-                <section class="forecast-article-section">
+                <section class="article">
                     <div class="forecast-article-box">
-
                         <h4>Article Title</h4>
-               
-                        <div class="article-paragraphs">
+                        <div class="article-content">
                             <img src="images/forecast_image_hurricane.jpg" alt="a hurricane as seen from space" title="Photo from Pixabay on Pexels">
-                            <!-- https://www.pexels.com/photo/earth-planet-76969/ -->  
-                            <span class="article-text">
+                            <!-- source: https://www.pexels.com/photo/earth-planet-76969/ -->
+                            <span>
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean tincidunt tellus ac mattis vehicula. Phasellus vitae laoreet velit. Vestibulum consequat tortor neque, non laoreet neque placerat eu. Phasellus pulvinar justo metus, gravida dictum lectus facilisis ut. Duis bibendum interdum elit, in venenatis mauris ullamcorper sed. Praesent semper est ac neque vestibulum, iaculis faucibus mi facilisis. Etiam non diam tincidunt, mollis velit quis, faucibus nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</p>
                                 <p>Nulla pellentesque ultricies nibh, id scelerisque sem volutpat eu. Suspendisse iaculis sodales leo in dictum. Cras condimentum velit eu tellus luctus, vel blandit sem tincidunt. Donec sit amet ornare dui. Sed tempus enim ipsum, at eleifend ipsum ullamcorper quis. Proin molestie viverra nisl nec hendrerit. Nunc hendrerit diam eget blandit ultricies. Pellentesque sit amet condimentum urna. Nulla tempor, nibh quis porttitor fringilla, purus nibh tincidunt nibh, vitae commodo orci nulla nec sem. Etiam gravida id dolor sed posuere. Morbi et diam vestibulum, faucibus elit in, auctor ligula. Sed cursus posuere mauris mattis iaculis. Ut nec ante ornare, ultricies justo et, laoreet diam. Cras vehicula magna at leo faucibus, quis eleifend mi congue.</p>
                                 <p>Nulla pellentesque ultricies nibh, id scelerisque sem volutpat eu. Suspendisse iaculis sodales leo in dictum. Cras condimentum velit eu tellus luctus, vel blandit sem tincidunt. Donec sit amet ornare dui. Sed tempus enim ipsum, at eleifend ipsum ullamcorper quis. Proin molestie viverra nisl nec hendrerit. Nunc hendrerit diam eget blandit ultricies. Pellentesque sit amet condimentum urna. Nulla tempor, nibh quis porttitor fringilla, purus nibh tincidunt nibh, vitae commodo orci nulla nec sem. Etiam gravida id dolor sed posuere. Morbi et diam vestibulum, faucibus elit in, auctor ligula. Sed cursus posuere mauris mattis iaculis. Ut nec ante ornare, ultricies justo et, laoreet diam. Cras vehicula magna at leo faucibus, quis eleifend mi congue.</p>
-    
                             </span>
-
-                        
                         </div>
 
                     </div>
@@ -130,12 +123,8 @@
                     </div>
                 </section>
 
-                <img src="images/map_freepic.png" id="footer-map" alt="map" title="Map vector created by freepik - www.freepik.com">
+                <img src="images/map_freepic.png" class="footer-map" alt="map" title="Map vector created by freepik - www.freepik.com">
                 <!-- <a href="https://www.freepik.com/vectors/map">Map vector created by freepik - www.freepik.com</a> -->
-
-
-
-                
 
                 <section class="copyright">
                     <h3 class="hidden">Copyright</h3>

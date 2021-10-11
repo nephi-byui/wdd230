@@ -63,11 +63,6 @@ header {
     margin-top: -11px;
     padding-top: 0px;
 	color: var(--almost-white);
-/*
-    margin-left: -10000px;
-    margin-right: -10000px;
-
-    text-align: center;*/
 }
 
 #header-content {
@@ -95,7 +90,6 @@ header a:visited {
 .site-title {
 	display: block;
 	padding: 1em;
-    
 }
 
 .site-title h2 {
@@ -202,33 +196,43 @@ nav {
     display: block;
 }
 
-	/* end nav */
+/* end nav */
 
 /* main */
 
 #content {
 	max-width: 100%;
-	max-width: 960px;
 	margin: auto;
 	padding: .5em;
 }
 
-#page-title {
-    font-size: 2em;
-    padding: .5em;
+.title-stripe {
+    background-color: var(--absolute-zero);
+    height: auto;
+    margin-top: -1.5em;
+    border-radius: 0 0 10px 10px;
+    margin-bottom: .5em;
 }
 
-.hero-image {
-    margin: 0;
-    padding: 0;
-    border-radius: 10px;
+.title-stripe h1 {
+    padding: .5em 0 .5em .5em;
+    color: white;
+    font-size: 2em;
 }
+
+/* hero section */
 
 .hero-section {
 	margin: auto;
 	padding: .5em;
     padding-top: .5em;
     padding-bottom: .5em;
+}
+
+.hero-image {
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
 }
 
 .weather-summary {
@@ -273,6 +277,7 @@ nav {
     font-size: 3em;
     padding: .5em .25em;
 }
+/* delete
 
 #five-day-forecast-section {
    margin: 0px;
@@ -284,10 +289,11 @@ nav {
 
    border-radius: 10px;
    
-}
+}*/
 
 /* wrapper */
-.five-day-forecast-section-header {
+
+.forecast-section .header-wrapper {
     margin: 0;
     margin-top: -1.8em;
     padding: 0;
@@ -297,16 +303,17 @@ nav {
     background-color: var(--jet-black);  
 }
 
-.five-day-forecast-section-header h3 {
+.forecast-section h3 {
     color: var(--almost-white);
 }
 
-.forecast-article-section h4 {
+
+.article h4 {
     margin-top: 0px;
-    margin-bottom: 0px;
+    margin-bottom: -.5em;
 }
 
-.forecast-article-section img { /*
+.article img { /*
     display: block; */
     margin: auto;
     border-radius: 0 0 10px 10px;
@@ -316,17 +323,17 @@ nav {
     use one-column grid to swap position
     with with paragraphs */
 
-.article-paragraphs {
+.article-content {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 2;
 }
 
-.article-text {
+.article-content p {
     grid-row: 1/2;
 }
 
-.article-paragraphs img {
+.article-content img {
     grid-row: 2/3;
 }
 
@@ -351,7 +358,7 @@ footer {
     grid-template-columns: 1fr;
 }
 
-#footer-map {
+.footer-map {
     border-radius: 10px;
 }
 
