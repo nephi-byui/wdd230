@@ -20,6 +20,7 @@
 
 img {
 	max-width: 100%;
+    height: auto;
 }
 
 html {
@@ -29,6 +30,14 @@ html {
     background-color: var(--celadon);
     font-family: var(--paragraph-font);
     color: var(--jet-black);
+}
+
+/* keep content within viewport width */
+#content,
+#header-content,
+main,
+#footer-content {
+    max-width: 100vw;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -278,19 +287,6 @@ nav {
     font-size: 3em;
     padding: .5em .25em;
 }
-/* delete
-
-#five-day-forecast-section {
-   margin: 0px;
-   margin-top: 1em;
-
-   border-style: solid;
-   border-color: var(--jet-black);
-   border-width: .3em;
-
-   border-radius: 10px;
-   
-}*/
 
 /* wrapper */
 
@@ -437,9 +433,7 @@ ul.footer-contact li:before {
 
 #friday-banner div.text-wrapper {
     overflow: visible;
-    margin: auto;/*
-    max-width: 100%;
-    display: block;*/
+    margin: auto;
     background-color: var(--absolute-zero);
     text-align: center;
     font-size: 1em;
@@ -486,10 +480,45 @@ ul.footer-contact li:before {
 
 .attribution li {
     text-align: center;
-    max-width: 480px;
+    max-width: 256px;
     padding: 1em;
 }
 
 .attribution i {
     font-size: 2em;
 }
+
+
+
+/*
+@media only screen and (min-width: 300px) {
+
+	#content {
+        max-width: 300px;
+		margin: auto;
+    }
+    #header-content {
+		max-width: 300px;
+		margin: auto;
+    }
+    #footer-content {
+		max-width: 300px;
+        display: grid;
+    }
+}
+
+@media only screen and (min-width: 420px) {
+
+	#content {
+        max-width: 400px;
+		margin: auto;
+    }
+    #header-content {
+		max-width: 400px;
+		margin: auto;
+    }
+    #footer-content {
+		max-width: 400px;
+        display: grid;
+    }
+}*/
