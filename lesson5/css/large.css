@@ -1,16 +1,16 @@
 /* Media Query for large views */
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 820px) {
 
 	#content {
-        max-width: 900px;
+        max-width: 800px;
 		margin: auto;
     }
     #header-content {
-		max-width: 900px;
+		max-width: 800px;
 		margin: auto;
     }
     #footer-content {
-		max-width: 900px;
+		max-width: 800px;
         display: grid;
     }
 */
