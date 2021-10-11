@@ -31,10 +31,7 @@
 
 	/* nav */
 
-	/* hide menu button */
-	.nav-toggle {
-		display: none;
-	}
+	
 
 	.navigation {
 		display: flex;
@@ -75,17 +72,23 @@
         height: auto;
     }
 
-	/* forecast section */
+	/* .forecast-section */
+
+	.forecast-section {
+		background-color: var(--celadon);
+	}
 
 	.forecast-icons-box img {
 		display: flex;
 	}
-
+/*
 	.hide-on-small-view {
 		display: block;
-	}
+	}*/
 
-	.forecast-section {
+	/* forecast-section */
+
+	#five-day-forecast-section {
 		border-style: none;
 	}
 
@@ -107,22 +110,26 @@
 		border-radius: 10px;
 		margin-bottom: .25em;
 	}
-	
+	/*
 	.forecast-icons-box img {
 		padding: .5em;
 		padding-left: 1.5em;
 		padding-right: 1.5em;
+	}*/
+
+	.forecast-article-box {
+		background-color: var(--viridian);
+		border-radius: 10px;
+		padding-bottom: .5em;
 	}
 
 	.forecast-article-section {
-		border-style: solid;
-		border-radius: 10px;
-
 		margin-top: .25em
 	}
 
 	.article-paragraphs {
 		display: block;
+		font-size: 1.1em;
 	}
 
 	.article-paragraphs img {
@@ -130,8 +137,10 @@
 		float: right;
 		margin: 1em;
 		max-width: 300px;
+
+		border-radius: 10px;
 		
-		border: 1px solid var(--almost-white);
+		border: 2px solid var(--celadon);
 		box-shadow: 4px 4px 4px var(--jet-black);
 	}
 
