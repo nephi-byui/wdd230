@@ -53,6 +53,8 @@
     }
 
 	.weather-summary {
+		opacity: 85%;
+
         position: absolute;
 		margin-top: 15px;
 		margin-left: 15px;
@@ -170,6 +172,8 @@
 		padding: 1em;
 		margin: 1em;
 		grid-column: 1/2;
+
+		border-radius: 10px;
 	}
 
 	.social-links {

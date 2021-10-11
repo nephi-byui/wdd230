@@ -351,6 +351,10 @@ footer {
     grid-template-columns: 1fr;
 }
 
+#footer-map {
+    border-radius: 10px;
+}
+
 footer h3 {
     color: var(--almost-white);
     margin: 0;
