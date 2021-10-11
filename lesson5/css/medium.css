@@ -1,5 +1,5 @@
 /* Media Query for medium+ views */
-@media only screen and (min-width: 36em) {
+@media only screen and (min-width: 600px) {
 
 
 	/*
@@ -106,14 +106,15 @@
 
 	/* FOOTER */
 
-	footer {
+	#footer-content {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
 
 	.contact-section {
 		padding: 1em;
-		margin: 1em;
+		margin: 2em;
+		margin-left: 2em;
 		margin-top: -1em;
 		
 		display: flex;
@@ -152,7 +153,5 @@
 		
 		display: block;
 	}
-
-
 
 }

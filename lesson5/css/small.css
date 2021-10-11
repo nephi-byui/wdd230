@@ -145,10 +145,22 @@ header a:visited {
     background-color: var(--celadon);
     color: var(--jet-black);
 }
+/*
+.nav-wrapper {
+    margin-left: -10000px;
+    margin-right: -10000px;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+}*/
+
 nav {
+    display: block;
     text-align: center;
     margin: 0 auto;
 }
+
 .navigation {
     list-style: none;
     padding: 0;
@@ -219,12 +231,22 @@ nav {
 	background-color: var(--jet-black);
 }
 
-#weather-summary-section h3,
+#weather-summary-section h3 {
+    font-weight: 400;
+    color: var(--almost-white);
+    
+    margin-top: .5em;
+
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+
 #weather-summary-section p {
     font-weight: 400;
     color: var(--almost-white);
     padding-top: 0px;
-    padding-bottom: 0px;
+    padding-bottom: 1em;
 }
 
 /* 5-day-forecast */
@@ -308,16 +330,26 @@ nav {
 footer {
     background-color: var(--jet-black);
     color: var(--almost-white);
+    display: flex;
+    margin-left: -10000px;
+    margin-right: -10000px;
+    margin-top: 1em;
+    margin-bottom: -20px;
+    padding-top: 0;
 }
 
-footer {
+#footer-content {
+    padding: 1em;
+    margin: auto;
+    margin-top: 0;
     display: grid;
     grid-template-columns: 1fr;
 }
 
 footer h3 {
     color: var(--almost-white);
-    margin-bottom: 0;
+    margin: 0;
+    padding-top: 0;
 }
 
 footer a,
@@ -330,7 +362,7 @@ footer a:hover {
 }
 
 .contact-section {
-    padding-bottom: 1em;
+    padding-bottom: 2em;
 }
 
 .contact-section ul {
