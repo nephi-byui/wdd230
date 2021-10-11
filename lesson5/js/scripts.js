@@ -1,3 +1,5 @@
+/* DATE FUNCTIONS ON LOAD */
+
 const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
 
 // footer date
