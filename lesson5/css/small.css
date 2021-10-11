@@ -256,21 +256,22 @@ nav {
 
 /* 5-day-forecast */
 
+.forecast-section {
+    background-color: var(--viridian);
+    border-radius: 10px;
+    margin: .5em;
+}
+
+/* hidden in small view */
 .forecast-icons-box {
     background-color: var(--jet-black);
     border-color: var(--jet-black);
 }
 
 .forecast-icons-box i {
-
     color: var(--almost-white);
     font-size: 3em;
     padding: .5em .25em;
-}
-
-.forecast-icons-box img {
-    max-width: 64px;
-    max-height: 64px;
 }
 
 #five-day-forecast-section {
@@ -291,7 +292,7 @@ nav {
     margin-top: -1.8em;
     padding: 0;
     text-align: center;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
     border-color: var(--jet-black);
     background-color: var(--jet-black);  
 }
@@ -299,8 +300,6 @@ nav {
 .five-day-forecast-section-header h3 {
     color: var(--almost-white);
 }
-
-/* hidden by default on small */
 
 .forecast-article-section h4 {
     margin-top: 0px;
@@ -310,6 +309,7 @@ nav {
 .forecast-article-section img { /*
     display: block; */
     margin: auto;
+    border-radius: 0 0 10px 10px;
 }
 
 /* image should be at bottom in small view
