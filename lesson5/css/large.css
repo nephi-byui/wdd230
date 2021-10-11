@@ -13,11 +13,11 @@
 
     /* inset on hero image */
 
-    #weather-summary-section {
+    .hero-section {
         display: grid;
     }
 
-    .inset {
+    .weather-summary {
         position: absolute;
 		margin-top: 15px;
 		margin-left: 15px;
@@ -27,10 +27,12 @@
         padding:.25em;
 		background-color: var(--jet-black);
 
+        border: 10px;
+
 		order: 1;
 	}
 
-    #hero-image {
+    .hero-image {
         grid-column: 1/2;
         height: auto;
     }
