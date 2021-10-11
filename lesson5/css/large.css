@@ -1,5 +1,5 @@
 /* Media Query for large views */
-@media only screen and (min-width: 830px) {
+@media only screen and (min-width: 820px) {
 
 	#content {
         max-width: 800px;
@@ -193,8 +193,7 @@
 
 	/* SHOW on medium view */
 
-	.footer-address {
-		
+	.footer-address {		
 		display: block;
 	}
 

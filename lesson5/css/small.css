@@ -474,3 +474,22 @@ ul.footer-contact li:before {
 .social-links {
     display: none;
 }
+
+
+
+/* ATTRIBUTION */
+
+.attribution {
+    text-align: center;
+    display: block;
+}
+
+.attribution li {
+    text-align: center;
+    max-width: 480px;
+    padding: 1em;
+}
+
+.attribution i {
+    font-size: 2em;
+}
