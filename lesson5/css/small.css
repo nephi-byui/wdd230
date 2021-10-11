@@ -29,8 +29,6 @@ html {
     background-color: var(--celadon);
     font-family: var(--paragraph-font);
     color: var(--jet-black);
-
-    transition: 1s;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -49,6 +47,10 @@ p {
     font-size: 1.25em;
     padding: .5em;
     margin: .5em;
+}
+
+a, a:visited, a:hover {
+    transition: 1s;
 }
 
 .hidden {
@@ -142,8 +144,6 @@ header a:visited {
 .nav-toggle:hover {
     background-color: var(--celadon);
     color: var(--jet-black);
-
-    transition: 1s;
 }
 nav {
     text-align: center;
@@ -168,7 +168,6 @@ nav {
     text-align: left;
     text-decoration: none;
     color: black;
-    transition: 1s;
 }
 
 .navigation a.active {
@@ -230,14 +229,24 @@ nav {
 
 /* 5-day-forecast */
 
+.forecast-icons-box {
+    background-color: var(--jet-black);
+    border-color: var(--jet-black);
+}
+
+.forecast-icons-box i {
+
+    color: var(--almost-white);
+    font-size: 3em;
+    padding: .5em .25em;
+}
+
 .forecast-icons-box img {
     max-width: 64px;
     max-height: 64px;
 }
 
 #five-day-forecast-section {
-    
-
    margin: 0px;
    margin-top: 1em;
 
@@ -249,12 +258,15 @@ nav {
    
 }
 
+/* wrapper */
 .five-day-forecast-section-header {
-    padding-top: 0px;
+    margin: 0;
     margin-top: -1.8em;
+    padding: 0;
     text-align: center;
-    border-radius: 10px 10px 0px 0px;
-    background-color: var(--jet-black);    
+    border-radius: 10px;
+    border-color: var(--jet-black);
+    background-color: var(--jet-black);  
 }
 
 .five-day-forecast-section-header h3 {
@@ -306,12 +318,10 @@ footer h3 {
 footer a,
 footer a:visited {
     color: var(--almost-white);
-    transition: 1s;
 }
 
 footer a:hover {
     color: var(--viridian);
-    transition: 1s;
 }
 
 #contact-section {
