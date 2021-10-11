@@ -1,17 +1,19 @@
 /* Media Query for large views */
-@media only screen and (min-width: 820px) {
+@media only screen and (min-width: 900px) {
 
 	#content {
-        max-width: 800px;
+        max-width: 900px;
+		margin: auto;
     }
     #header-content {
-        max-width: 800px;
+		max-width: 900px;
+		margin: auto;
     }
     #footer-content {
-        max-width: 800px;
+		max-width: 900px;
         display: grid;
     }
-
+*/
 	h1, h2, h3, h4, h5, h6 {
 		font-family: var(--heading-font);
 		color: var(--jet-black);
