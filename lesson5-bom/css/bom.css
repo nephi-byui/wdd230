@@ -72,3 +72,18 @@ li {
 		width: 480px;
 	}
 }
+
+/* stretch */
+
+#message-box {
+	background-color: skyblue;
+	text-align: center;
+	padding: 1em;
+	transition: 1s;
+}
+
+#message {
+	opacity: 85%;
+	text-align: center;
+	transition: 1s;
+}

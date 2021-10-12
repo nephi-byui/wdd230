@@ -48,7 +48,30 @@ addChapter.addEventListener("click", function(e) {
 
         // i.   clear the text box
         userInput.value = "";
+
+        // stretch
+        document.getElementById("message-box").style.backgroundColor = "skyblue";
+        document.getElementById("message").innerHTML = "successfully added \"" + user_input + " \"";
+    }
+
+    else {
+        document.getElementById("message-box").style.backgroundColor = "#f46d75";
+        document.getElementById("message").innerHTML = "Error: input cannot be blank.";
+    
     }
 }) 
 
+// stretch
+
+const clearAll = document.getElementById("clear");
+
+clearAll.addEventListener("click", function(e) {
+    e.preventDefault();
+    
+    const ul = chapterList;   
+    chapterList.innerHTML = "";
+    document.getElementById("message-box").style.backgroundColor = "skyblue";
+    document.getElementById("message").innerHTML = "Cleared all chapters.";
+    
+}) 
 
