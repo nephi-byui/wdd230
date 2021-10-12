@@ -149,15 +149,6 @@ header a:visited {
     background-color: var(--celadon);
     color: var(--jet-black);
 }
-/*
-.nav-wrapper {
-    margin-left: -10000px;
-    margin-right: -10000px;
-
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: center;
-}*/
 
 nav {
     display: block;
@@ -196,8 +187,6 @@ nav {
     background-color: black;
 }
 
-
-
 .visible nav {
     max-width: 32em;
 }
@@ -230,7 +219,7 @@ nav {
     font-size: 2em;
 }
 
-/* hero section */
+/* HERO SECTION */
 
 .hero-section {
 	margin: auto;
@@ -268,7 +257,7 @@ nav {
     padding-bottom: 1em;
 }
 
-/* 5-day-forecast */
+/* FORECAST SECTION */
 
 .forecast-section {
     background-color: var(--viridian);
@@ -470,24 +459,6 @@ ul.footer-contact li:before {
 }
 
 
-
-/* ATTRIBUTION */
-
-.attribution {
-    text-align: center;
-    display: block;
-}
-
-.attribution li {
-    text-align: center;
-    max-width: 256px;
-    padding: 1em;
-}
-
-.attribution i {
-    font-size: 2em;
-}
-
 /* for really tiny screens */
 @media only screen and (max-width: 479px) {
 
@@ -511,35 +482,19 @@ ul.footer-contact li:before {
 }
 
 
-/*
-@media only screen and (min-width: 300px) {
+/* ATTRIBUTION */
 
-	#content {
-        max-width: 300px;
-		margin: auto;
-    }
-    #header-content {
-		max-width: 300px;
-		margin: auto;
-    }
-    #footer-content {
-		max-width: 300px;
-        display: grid;
-    }
+.attribution {
+    text-align: center;
+    display: block;
 }
 
-@media only screen and (min-width: 420px) {
+.attribution li {
+    text-align: center;
+    max-width: 256px;
+    padding: 1em;
+}
 
-	#content {
-        max-width: 400px;
-		margin: auto;
-    }
-    #header-content {
-		max-width: 400px;
-		margin: auto;
-    }
-    #footer-content {
-		max-width: 400px;
-        display: grid;
-    }
-}*/
+.attribution i {
+    font-size: 2em;
+}

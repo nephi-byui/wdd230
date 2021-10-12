@@ -87,7 +87,6 @@
 		font-size: 4em;
 	}
 
-
 	/* hero section */
 
 	.hero-section {
@@ -133,6 +132,7 @@
 		color: var(--jet-black);
 	}
 
+	/* show icons on large view */
 	.forecast-icons-box {
 		display: flex;
 		align-items: center;
@@ -216,6 +216,7 @@
 
 	/* HIDE OR SHOW */
 
+	/* remove the line break on large view */
 	.banner-break {
 		display:none
 	}
