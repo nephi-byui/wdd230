@@ -269,6 +269,7 @@ nav {
 .forecast-icons-box {
     background-color: var(--jet-black);
     border-color: var(--jet-black);
+    color: var(--almost-white)
 }
 
 .forecast-icons-box i {
