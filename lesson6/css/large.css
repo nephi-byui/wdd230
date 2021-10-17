@@ -5,10 +5,17 @@
         max-width: 960px;
 		margin: auto;
     }
+
     #header-content {
 		max-width: 960px;
 		margin: auto;
     }
+
+	#main-content {
+		max-width: 960px;
+		margin: auto;
+    }
+	
     #footer-content {
 		max-width: 960px;
         display: grid;

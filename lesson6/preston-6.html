@@ -55,61 +55,68 @@
         </header>
 
         <main>
-            <div class="page-title-container">
-                <div class="title-stripe">
-                    <h1 class="page-title">Preston Idaho</h1>
-                </div>
-            </div>
-
-            <div class="hero-section">
-                <img class="hero-image" src="images/preston_idaho_hero_image.png" alt="a picture of the waterfront on the coastal city of Preston, Idaho" title="Photo by Stevan Aksentijevic from Pexels">
-                <!-- https://www.pexels.com/photo/panoramic-photography-of-city-buildings-2430941/ -->
-                <div class="weather-summary">
-                    <h2>Weather Summary</h2>
-                    <p>A very large hurricane very far away will create rain throughout the entire Stormwatch Bay region. Precipitation is all but certain. Wear layers and prepare for rain.</p>
-                </div>
-            </div>
-
-            <section class="forecast-section">
-                <div class="header-wrapper">
-                    <h3>Five Day Forecast</h3>
-                </div>
-
-                <div class="forecast-icons-box">
-                    <i class="fas fa-cloud-sun-rain"></i>
-                    <i class="fas fa-cloud-showers-heavy"></i>
-                    <i class="fas fa-cloud-sun"></i>
-                    <i class="fas fa-cloud-moon-rain"></i>
-                    <i class="fas fa-cloud-meatball"></i>
-<!--
-                    <i class="fas fa-cloud-sun-rain" title="raincloud with sun behind it"></i>
-                    <i class="fas fa-cloud-showers-heavy" title="raincloud"></i>
-                    <i class="fas fa-cloud-sun" title="cloud with sun behind it"></i>
-                    <i class="fas fa-cloud-moon-rain" title="raincloud with moon behind it"></i>
-                    <i class="fas fa-cloud-meatball" title="cloud raining meatballs"></i> -->
-                </div>
-
-                <section class="article">
-                    <div class="forecast-article-box">
-                        <h4>Hurricane Far Away</h4>
-                        <div class="article-content">
-                            <img src="images/forecast_image_hurricane.jpg" alt="a hurricane as seen from space" title="Photo from Pixabay on Pexels">
-                            <!-- source: https://www.pexels.com/photo/earth-planet-76969/ -->
-                            <div>
-                                <p>Possible due to structures and vegetation possible flash floods or landslides due to strong winds 	Possible due to moderate damage to moderate damage to moderate to heavy rains. Light to moderate to heavy rains. Light to moderate to heavy rains. Light to moderate damage to moderate to structures and vegetation possible due to moderate to heavy rains. Light to moderate to structures and vegetation possible due to moderate to moderate to moderate to heavy rains. Light to moderate to heavy rains.</p>
-                                <p>Light to moderate damage to moderate to moderate to moderate damage to heavy rains. Light to moderate to moderate damage to structures and vegetation possible flash floods or landslides due to moderate to moderate to moderate to heavy rains. Light to moderate damage to structures and vegetation possible due to moderate to strong winds. Possible flash floods or landslides due to moderate damage to structures and vegetation possible flash floods or landslides due to moderate to heavy rains.</p>
-                                <p>Flash floods or landslides due to moderate to moderate to structures and vegetation possible flash floods or landslides due to moderate to moderate to strong winds. Possible flash floods or landslides due to strong winds. Possible flash floods or landslides due to moderate to moderate to heavy rains. Light to moderate damage to moderate damage to moderate to structures and vegetation possible due to moderate to structures and vegetation possible flash floods or landslides due to moderate dama</p>
-                            </div>
-                        </div>
-
+            <div id="main-content">
+                <div class="page-title-container">
+                    <div class="title-stripe">
+                        <h1 class="page-title">Preston Idaho</h1>
                     </div>
-                    
-                    
+                </div>
+
+                <div class="hero-section">
+                    <picture>
+                        <source srcset="images/hero_image/hero_image_medium_840px.jpg" media="(min-width:640px) and (max-width:1007px)"">
+                            <source srcset="images/hero_image/hero_image_large_960px.jpg" media="(min-width:1008px)">
+                        <img class="hero-image" src="images/hero_image/hero_image_small_640px.jpg" alt="a picture of the waterfront on the coastal city of Preston, Idaho" title="Photo by Stevan Aksentijevic from Pexels">
+                    </picture>
+                    <!--
+                    <img class="hero-image" src="images/preston_idaho_hero_image.png" alt="a picture of the waterfront on the coastal city of Preston, Idaho" title="Photo by Stevan Aksentijevic from Pexels">
+                    --><!-- https://www.pexels.com/photo/panoramic-photography-of-city-buildings-2430941/ -->
+                    <div class="weather-summary">
+                        <h2>Weather Summary</h2>
+                        <p>A very large hurricane very far away will create rain throughout the entire Stormwatch Bay region. Precipitation is all but certain. Wear layers and prepare for rain.</p>
+                    </div>
+                </div>
+
+                <section class="forecast-section">
+                    <div class="header-wrapper">
+                        <h3>Five Day Forecast</h3>
+                    </div>
+
+                    <div class="forecast-icons-box">
+                        <i class="fas fa-cloud-sun-rain"></i>
+                        <i class="fas fa-cloud-showers-heavy"></i>
+                        <i class="fas fa-cloud-sun"></i>
+                        <i class="fas fa-cloud-moon-rain"></i>
+                        <i class="fas fa-cloud-meatball"></i>
+    <!--
+                        <i class="fas fa-cloud-sun-rain" title="raincloud with sun behind it"></i>
+                        <i class="fas fa-cloud-showers-heavy" title="raincloud"></i>
+                        <i class="fas fa-cloud-sun" title="cloud with sun behind it"></i>
+                        <i class="fas fa-cloud-moon-rain" title="raincloud with moon behind it"></i>
+                        <i class="fas fa-cloud-meatball" title="cloud raining meatballs"></i> -->
+                    </div>
+
+                    <section class="article">
+                        <div class="forecast-article-box">
+                            <h4>Hurricane Far Away</h4>
+                            <div class="article-content">
+                                <img src="images/forecast_image_hurricane.jpg" alt="a hurricane as seen from space" title="Photo from Pixabay on Pexels">
+                                <!-- source: https://www.pexels.com/photo/earth-planet-76969/ -->
+                                <div>
+                                    <p>Possible due to structures and vegetation possible flash floods or landslides due to strong winds 	Possible due to moderate damage to moderate damage to moderate to heavy rains. Light to moderate to heavy rains. Light to moderate to heavy rains. Light to moderate damage to moderate to structures and vegetation possible due to moderate to heavy rains. Light to moderate to structures and vegetation possible due to moderate to moderate to moderate to heavy rains. Light to moderate to heavy rains.</p>
+                                    <p>Light to moderate damage to moderate to moderate to moderate damage to heavy rains. Light to moderate to moderate damage to structures and vegetation possible flash floods or landslides due to moderate to moderate to moderate to heavy rains. Light to moderate damage to structures and vegetation possible due to moderate to strong winds. Possible flash floods or landslides due to moderate damage to structures and vegetation possible flash floods or landslides due to moderate to heavy rains.</p>
+                                    <p>Flash floods or landslides due to moderate to moderate to structures and vegetation possible flash floods or landslides due to moderate to moderate to strong winds. Possible flash floods or landslides due to strong winds. Possible flash floods or landslides due to moderate to moderate to heavy rains. Light to moderate damage to moderate damage to moderate to structures and vegetation possible due to moderate to structures and vegetation possible flash floods or landslides due to moderate dama</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                        
+
+                    </section>
 
                 </section>
-
-            </section>
-
+            </div>
         </main>
 
         <footer>
