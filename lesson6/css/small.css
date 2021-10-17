@@ -249,12 +249,17 @@ nav {
     padding-bottom: 0px;
 }
 
-.hero-section p {
+.hero-section li {
+
+    font-size: 1.05em;
+    list-style-type: none;
+    
     font-weight: 400;
     color: var(--almost-white);
 
-    padding-top: 0px;
-    padding-bottom: 1em;
+    margin-left: -1.2em;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 /* FORECAST SECTION */
