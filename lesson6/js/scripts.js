@@ -22,6 +22,9 @@ function pageLoad() {
         }
     };
 
+
+
+
 window.onload = pageLoad() 
 ;
 
@@ -33,4 +36,15 @@ const mainNav = document.querySelector('.navigation')
 menuButton.addEventListener('click', () => {mainNav.classList.toggle('visible')}, false);
 
 // if nav is open and viewport is resized, the nav will close, and not come back even if viewport becomes small again
-window.onresize = () => {if (window.innerWidth > 960) mainNav.classList.remove('visible')};
+window.onresize = () => {if (window.innerWidth > 960) mainNav.classList.remove('visible')};/*
+function get_wind_chill(temp_f,wind_speed_mph) {
+    a = ( 35.74 + (0.6215 * temp_f) ) 
+    b = - (35.75 * wind_speed_mph *0.16*0.16)
+    c = ( 0.4275 * temp_f * (wind_speed_mph ** 0.16))
+    //wind_chill = 1 + 1.0515
+    // return wind_chill
+    return b
+}
+*/
+
+;

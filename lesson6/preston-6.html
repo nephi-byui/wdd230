@@ -68,20 +68,16 @@
                             <source srcset="images/hero_image/hero_image_large_960px.jpg" media="(min-width:1008px)">
                         <img class="hero-image" src="images/hero_image/hero_image_small_640px.jpg" alt="a picture of the waterfront on the coastal city of Preston, Idaho" title="Photo by Stevan Aksentijevic from Pexels">
                     </picture>
-                    <!--
-                    <img class="hero-image" src="images/preston_idaho_hero_image.png" alt="a picture of the waterfront on the coastal city of Preston, Idaho" title="Photo by Stevan Aksentijevic from Pexels">
-                    --><!-- https://www.pexels.com/photo/panoramic-photography-of-city-buildings-2430941/ -->
                     <div class="weather-summary">
                         <h2>Weather Summary</h2>
                             <ul>
-                                <li>Currently: <span class="var-weather-desc">VAR_WEATHER_DESC</span></li>
-                                <li>High: <span class="var-temp">VAR_TEMP</span>&#176;F</li>
-                                <li>Wind Chill: <span class="var-wind-chill">VAR_WIND_CHILL<span>&#176;F</li>
-                                <li>Humidity: <span class="var-humidity">VAR_HUMIDITY<span>%</li>
-                                <li>Wind Speed: <span class="var-wind-chill">VAR_WIND_CHILL<span> mph</li>
+                                <li><span class="left-column">Currently:</span><span class="var-weather-desc right-column">Fair</span></li>
+                                <li><span class="left-column">High:</span><span class="var-temp-f right-column">50</span> &#176;F</li>
+                                <li><span class="left-column">Wind Chill:</span><span class="var-wind-chill right-column">WIND_CHILL</span></li>
+                                <li><span class="left-column">Humidity:</span><span class="var-humidity right-column">95<span>%</li>
+                                <li><span class="left-column">Wind Speed:</span><span class="var-wind-speed right-column">12<span> mph</li>
                             </ul>
-                        <!--<p>A very large hurricane very far away will create rain throughout the entire Stormwatch Bay region. Precipitation is all but certain. Wear layers and prepare for rain.</p> -->
-                    </div>
+                        </div>
                 </div>
 
                 <section class="forecast-section">
@@ -95,12 +91,6 @@
                         <i class="fas fa-cloud-sun"></i>
                         <i class="fas fa-cloud-moon-rain"></i>
                         <i class="fas fa-cloud-meatball"></i>
-    <!--
-                        <i class="fas fa-cloud-sun-rain" title="raincloud with sun behind it"></i>
-                        <i class="fas fa-cloud-showers-heavy" title="raincloud"></i>
-                        <i class="fas fa-cloud-sun" title="cloud with sun behind it"></i>
-                        <i class="fas fa-cloud-moon-rain" title="raincloud with moon behind it"></i>
-                        <i class="fas fa-cloud-meatball" title="cloud raining meatballs"></i> -->
                     </div>
 
                     <section class="article">
@@ -108,7 +98,6 @@
                             <h4>Hurricane Far Away</h4>
                             <div class="article-content">
                                 <img src="images/forecast_image_hurricane.jpg" alt="a hurricane as seen from space" title="Photo from Pixabay on Pexels">
-                                <!-- source: https://www.pexels.com/photo/earth-planet-76969/ -->
                                 <div>
                                     <p>Possible due to structures and vegetation possible flash floods or landslides due to strong winds 	Possible due to moderate damage to moderate damage to moderate to heavy rains. Light to moderate to heavy rains. Light to moderate to heavy rains. Light to moderate damage to moderate to structures and vegetation possible due to moderate to heavy rains. Light to moderate to structures and vegetation possible due to moderate to moderate to moderate to heavy rains. Light to moderate to heavy rains.</p>
                                     <p>Light to moderate damage to moderate to moderate to moderate damage to heavy rains. Light to moderate to moderate damage to structures and vegetation possible flash floods or landslides due to moderate to moderate to moderate to heavy rains. Light to moderate damage to structures and vegetation possible due to moderate to strong winds. Possible flash floods or landslides due to moderate damage to structures and vegetation possible flash floods or landslides due to moderate to heavy rains.</p>
@@ -144,7 +133,6 @@
                 </section>
 
                 <img src="images/map_freepic.png" class="footer-map" alt="map" title="Map vector created by freepik - www.freepik.com">
-                <!-- <a href="https://www.freepik.com/vectors/map">Map vector created by freepik - www.freepik.com</a> -->
 
                 <section class="copyright">
                     <h3 class="hidden">Copyright</h3>
@@ -153,7 +141,11 @@
                     <a href="https://www.byui.edu/online" title="Online Certificates & Degrees" rel="nofollow">BYU-Idaho Online Learning</a></p>
                 </section>
                 
+                <!-- scripts: footer date, Friday banner, -->
                 <script src="js/scripts.js"></script>
+                
+                <!-- wind chill -->
+                <script src="js/windchill.js"></script>
 
                 <!-- Web Font Loader -->
                 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
@@ -164,6 +156,7 @@
                         }
                     });
                 </script>
+
             </div>        
         </footer>
         
