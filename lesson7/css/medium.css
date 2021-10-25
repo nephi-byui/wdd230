@@ -1,0 +1,22 @@
+/* Media Query for medium views */
+@media only screen and (min-width: 640px) {
+	#content {
+        max-width: 840px;
+		margin: auto;
+    }
+
+    #header-content {
+		max-width: 840px;
+		margin: auto;
+    }
+
+	#main-content {
+		max-width: 840px;
+		margin: auto;
+    }
+	
+    #footer-content {
+		max-width: 840px;
+        display: grid;
+    }
+}
