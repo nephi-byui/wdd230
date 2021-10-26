@@ -512,10 +512,13 @@ ul.footer-contact li:before {
     max-width: 300px;
     height: 220px;
     margin: auto;
-    background-color: var(--almost-white);
-
+    background-color: var(--absolute-zero);
+    
+    color: var(--almost-white);
     font-size: .8em;
     border-radius: 10px;
+
+    opacity: 80%;
 }
 
 

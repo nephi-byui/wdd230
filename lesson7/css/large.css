@@ -234,16 +234,17 @@
 		display: block;
 	}
 
-	  /* GALLERY (large) */
+	/* GALLERY (large) */
 
-	  .weather-images {
-		grid-template-columns: 1fr 1fr 1fr;
-	  }
+	.weather-images {
+	grid-template-columns: 1fr 1fr 1fr;
+	}
 
-	  .weather-images figure:hover {
-		box-shadow: 0 0 50px #333;
-	  }
-	
-	  /* end GALLERY */
+	.weather-images figure:hover {
+	box-shadow: 0 0 50px var(--jet-black);
+	opacity: 100%;
+	}
+
+	/* end GALLERY */
 
 }
