@@ -19,4 +19,13 @@
 		max-width: 840px;
         display: grid;
     }
+
+  /* GALLERY (medium) */
+
+  .weather-images {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /* end GALLERY */
+
 }

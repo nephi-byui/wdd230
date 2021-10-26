@@ -493,6 +493,31 @@ ul.footer-contact li:before {
     }
 }
 
+/* GALLERY (small) */
+
+.weather-images {
+    margin-top: 20px;
+
+    display: grid;
+    text-align: center;
+
+    grid-template-columns: 1fr;
+    column-gap: 20px;
+    grid-gap: 20px;
+}
+
+.weather-images figure {
+
+    padding: 10px;
+    max-width: 300px;
+    height: 220px;
+    margin: auto;
+    background-color: var(--almost-white);
+
+    font-size: .8em;
+    border-radius: 10px;
+}
+
 
 /* ATTRIBUTION */
 
