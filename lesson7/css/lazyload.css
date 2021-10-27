@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Antique&display=swap');
+
+html {
+    background-color: #212121;
+    text-align: center;
+    
+}
+
+#content {
+    max-width: 640px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Zen Antique', 'Times New Roman', serif;
+    font-weight: 400;
+    font-size: 3.5em
+}
+
+h2 {
+    font-family: 'Zen Antique', 'Times New Roman', serif;
+    font-weight: 400;
+    font-size: 1.5em;
+    margin-top: -1.25em;
+}
+
+h1, h2, h3, h4, h5, h6,
+p, a, a:visited, a:hover {
+
+    color: #eeeeee;
+    transition: 0.5s;
+}
+
+a:hover {
+    color:skyblue;
+    transition: 0.5s;
+}
+
+img {
+    max-width: 300px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.terunofuji {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+/* blur images with a data-src attribute */
+.terunofuji img[data-src] {
+    filter: blur(0.2em);
+}
+
+/* unblur those that do not */
+.terunofuji img {
+    filter: blur(0em);
+    transition: filter 1.25s;
+}

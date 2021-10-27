@@ -174,7 +174,7 @@ nav {
     padding: 0.75rem;
     text-align: left;
     text-decoration: none;
-    color: black;
+    color: var(--almost-white);
 }
 
 .navigation a.active {
@@ -512,13 +512,13 @@ ul.footer-contact li:before {
     max-width: 300px;
     height: 220px;
     margin: auto;
-    background-color: var(--absolute-zero);
+    background-color: var(--viridian);
     
     color: var(--almost-white);
-    font-size: .8em;
+    font-size: .9em;
     border-radius: 10px;
 
-    opacity: 80%;
+    opacity: 90%;
 }
 
 
