@@ -1,4 +1,4 @@
-/* >> laoder */
+/* >> loader */
 
 let imagesToLoad = document.querySelectorAll('img[data-src]');
 
