@@ -359,6 +359,7 @@ footer {
     border-radius: 10px;
 }
 
+footer h2,
 footer h3 {
     color: var(--almost-white);
     margin: 0;
