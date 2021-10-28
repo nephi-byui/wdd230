@@ -510,7 +510,7 @@ ul.footer-contact li:before {
 
     padding: 10px;
     max-width: 300px;
-    height: 220px;
+    height: 235px;
     margin: auto;
     background-color: var(--viridian);
     
@@ -521,6 +521,17 @@ ul.footer-contact li:before {
     opacity: 90%;
 }
 
+.last-visited {
+    margin: auto;
+    margin-top: 25px;
+    max-width: 640px;
+    background-color: var(--absolute-zero);
+    text-align: center;
+    color: var(--almost-white);
+    padding: 15px;
+    border-radius: 10px;
+    font-style: italic;
+}
 
 /* ATTRIBUTION */
 
