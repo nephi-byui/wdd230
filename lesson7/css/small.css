@@ -521,7 +521,12 @@ ul.footer-contact li:before {
     opacity: 90%;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap');
+
 .last-visited {
+
+    opacity: 85%;
+
     margin: auto;
     margin-top: 25px;
     max-width: 640px;
@@ -530,7 +535,12 @@ ul.footer-contact li:before {
     color: var(--almost-white);
     padding: 15px;
     border-radius: 10px;
-    font-style: italic;
+}
+
+.last-visited .variable {
+    font-family: 'Ubuntu Mono', 'Courier New', Courier, monospace
+    font-size: 1.1em;
+    color: var(--celadon);
 }
 
 /* ATTRIBUTION */
