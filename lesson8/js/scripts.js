@@ -1,6 +1,6 @@
 /* GLOBAL */
 
-/* NAV */
+/* HEADER */
 
 const menuButton = document.querySelector('.nav-toggle');
 const mainNav = document.querySelector('.navigation')
@@ -19,7 +19,7 @@ window.onresize = () => {
 const options = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' }
 const dateElement = document.querySelector('#footer-date');
 
-function pageLoad() {
+function footerDate() {
     today = new Date()
     footer_date_string = today.toLocaleDateString(undefined, options);
 
@@ -27,4 +27,5 @@ function pageLoad() {
     dateElement.innerHTML = footer_date_string;
 };
 
-window.onload = pageLoad();
+footerDate()
+//window.onload = pageLoad();
