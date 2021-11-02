@@ -127,6 +127,25 @@ tfoot tr td {
     font-size: .7em;
 }
 
+
+/* original */
+
+.original {
+    background-color: white;
+    margin: 1em;
+    margin-top: 2em;
+    color: var(--light-slate-grey);
+    padding: 1em;
+    border-radius: 2em;
+}
+
+img {
+    max-width: 100%;
+    background-color: white;
+    padding: 1em;
+    border-radius: 2em;
+}
+
 /* footer */
 
 
