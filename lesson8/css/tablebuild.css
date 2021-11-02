@@ -12,10 +12,24 @@
 html {
     font-family: 'Ubuntu', sans-serif;
     text-align: center;
-    background-color: var(--light-slate-grey);
+    background-color: white;
+    transition: 2s;
 }
 
+footer {
+    color: var(--light-slate-grey);
+}
 
+footer a,
+footer a:visited {
+    transition: 1s;
+    color: var(--light-slate-grey);
+}
+
+footer a:hover {
+    color: var(--dark-sky-blue);
+    transition: 1s;
+}
 
 .content {
     margin: auto;
@@ -32,14 +46,15 @@ main {
 
 h1 {
     font-size: 2em;
-    color: var(--mint-cream);
 }
 
 h2 {
     font-size: 1.25em;
-    color: var(--mint-cream);
     margin-top: -1em;
+}
 
+h1, h2 {
+    color: var(--light-slate-grey)
 }
 
 /* main */
@@ -49,8 +64,6 @@ h2 {
 .table-container {
     background-color: white;
     margin: 1em;
-    padding: 7em;
-    border-radius: 100em;
 }
 
 table {
@@ -117,20 +130,38 @@ tfoot tr td {
 
 /* footer */
 
-footer {
-    color: var(--mint-cream);
-}
 
-footer a,
-footer a:visited {
-    color: white;
-    transition: 1s;
-}
-
-footer a:hover {
-    color: cyan;
-    transition: 1s;
-}
 
 /* responsive */
 
+@media only screen and (min-width: 640px) {
+    .table-container {
+        padding: 7em;
+        border-radius: 100em;
+    }
+
+    html {
+        background-color: var(--light-slate-grey);
+    }
+
+    h1, h2 {
+        color: var(--mint-cream);
+    }
+
+    /* footer big */
+
+    footer {
+        color: var(--mint-cream);
+    }
+    
+    footer a,
+    footer a:visited {
+        color: white;
+        transition: 1s;
+    }
+    
+    footer a:hover {
+        color: cyan;
+        transition: 1s;
+    }
+}
