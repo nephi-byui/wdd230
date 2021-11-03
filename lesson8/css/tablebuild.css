@@ -131,18 +131,21 @@ tfoot tr td {
 /* original */
 
 .original {
+    margin: auto;
     background-color: white;
-    margin: 1em;
-    margin-top: 2em;
+    margin-top: 1em;
     color: var(--light-slate-grey);
     padding: 1em;
-    border-radius: 2em;
+    border-radius: 1em;
+    max-width: 360px;
+    font-weight: 700;
 }
 
 img {
     max-width: 100%;
+    margin-left: 10px;
     background-color: white;
-    padding: 1em;
+    padding: .5em;
     border-radius: 2em;
 }
 
