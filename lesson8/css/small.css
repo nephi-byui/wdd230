@@ -541,6 +541,100 @@ ul.footer-contact li:before {
     color: var(--celadon);
 }
 
+
+/* storm center SMALL */
+
+form {
+    color: var(--jet-black);
+    display: grid;
+    grid-template-columns: 1fr;
+    row-gap: 1em;
+    column-gap: 1em;
+    
+}
+
+fieldset {
+    border-radius: 10px;
+    margin-top: 10em;
+    padding-top: 10em;
+    padding: 1em;
+    width: 350px;
+    margin: auto;
+    border-width: 2px;
+    border-color: var(--viridian);
+}
+
+.label-text {
+    display: block;
+    width: 100%;
+    padding: .4em;
+    padding-top: .75em;
+    font-weight: 700;
+    
+}
+
+.personal-info input,
+.personal-info select,
+.storm-info input,
+.storm-info select,
+.radio-selection {
+    margin: auto;
+    width: 320px;
+    margin: 0 .25em;
+    padding: .25em;;
+}
+
+#severity-report {
+    padding: 1em;
+    font-size: 1.25em;
+    font-weight: 700;
+}
+
+#severity-value {
+    width: 100px;
+}
+
+.severity-report-text {
+    padding: .5em;
+    border-radius: 10px;
+    color:var(--jet-black);
+    background-color: white;
+}
+
+select option:disabled {
+    color: grey;
+}
+
+.submitBtn {
+    font-size: 1.25em;
+    width: 256px;
+    margin: auto;
+    color: white;
+    background-color: var(--absolute-zero);
+    padding: .5em;
+}
+
+
+/* thanks.html */
+
+.thank-you i {
+    font-size: 8em;
+}
+
+.thank-you {
+    opacity: 85%;
+    font-style: italic;
+    margin: 2em;
+    padding: 1em;
+    font-size: 1.2em;
+    color:var(--absolute-zero);
+    background-color: white;
+    transition: 1s;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
 /* ATTRIBUTION */
 
 .attribution {
