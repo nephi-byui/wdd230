@@ -558,7 +558,7 @@ fieldset {
     margin-top: 10em;
     padding-top: 10em;
     padding: 1em;
-    width: 350px;
+    width: 300px;
     margin: auto;
     border-width: 2px;
     border-color: var(--viridian);
@@ -577,9 +577,10 @@ fieldset {
 .personal-info select,
 .storm-info input,
 .storm-info select,
-.radio-selection {
+.radio-selection,
+textarea {
     margin: auto;
-    width: 320px;
+    width: 280px;
     margin: 0 .25em;
     padding: .25em;;
 }

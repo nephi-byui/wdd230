@@ -26,7 +26,19 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  
+
   /* end GALLERY */
+
+.personal-info input,
+.personal-info select,
+.storm-info input,
+.storm-info select,
+.radio-selection,
+textarea {
+  width: 320px;
+
+}
 
 
 
