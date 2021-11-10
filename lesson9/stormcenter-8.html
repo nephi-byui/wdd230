@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stormwatch Tower - Storm Center</title>
+    <meta name="description" content="Stormwatch Tower - Storm Center">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo-jet-black.svg">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/7065f50360.js" crossorigin="anonymous"></script>
+
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+</head>
+
+<body>
+
+    <div id="content">
+        <header>
+            <div id="header-content">
+                <div id="friday-banner" class="">
+                    <div class="text-wrapper">Saturday = Preston Pancakes in the Park!<br class="banner-break">
+                        9:00 a.m. Saturday at the city park pavilion.</div>
+                </div>
+                <div class="upper-header">
+                    <img id="site-logo" src="images/logo.svg" alt="picture of a tower">
+                    <section class=site-title>
+                        <h2>Stormwatch Tower</h2>
+                        <h3>Daily Weather Updates</h3>
+                    </section>
+
+                    <button class="nav-toggle">&#9776;</button>
+                </div>           
+                
+                <div class="nav-wrapper">
+                    <nav>
+                        <ul class="navigation">                    
+                            <li><a href="#">Home</a></li>
+                            <li><a href="preston-8.html">Preston</a></li>
+                            <li><a href="#">Soda Springs</a></li>
+                            <li><a href="#">Fish Haven</a></li>
+                            <li><a href="stormcenter-8.html" class="active">Storm Center</a></li>
+                            <li><a href="gallery-8.html">Gallery</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div id="main-content">
+                <div class="page-title-container">
+                    <div class="title-stripe">
+                        <h1 class="page-title">Storm Center</h1>
+                    </div>
+                </div>
+
+                <form method="get" action="thanks.html">
+
+
+                    <fieldset class="personal-info">
+                        <legend>Personal Information</legend>
+
+                        <label for="fname"><span class="label-text">*Full Name:</span>
+                            <input type="text" name="name" id="fname" pattern="[a-zA-Z]{5,}" required>
+                        </label><br>
+                        
+                        <label for="email"><span class="label-text">Email:</span>
+                            <input type="email" name="email" id="email" placeholder="youremail@gmail.com">
+                        </label><br>
+                        
+                        <label for="phone"><span class="label-text">*Phone Number:</span>
+                            <input type="tel" name="phone" id="phone" required>
+                        </label><br>
+
+                        
+                        <label for="zip"><span class="label-text">*Zip Code:</span>
+                            <input type="number" name="zip" id="zip" required>
+                        </label><br>
+                        
+
+                    </fieldset>
+            
+                    <fieldset class="storm-info">
+                        <legend>Storm Information</legend>
+
+                        <label for="storm-date"><span class="label-text">Storm Date:</span>
+                            <input type="date" name="date" id="storm-date">
+                        </label><br>
+
+                        <label for="storm-type"><span class="label-text">Storm Type:</span>
+                            <select id="storm-type">
+                                <option value="" disabled selected>Select a storm type:</option>
+                                <option value="Flash Flood">Flash Flood</option>
+                                <option value="Hail">Hail</option>
+                                <option value="Hurricane">Hurricane</option>
+                                <option value="Thunderstorm">Thunderstorm</option>
+                                <option value="Tornado">Tornado</option>
+                            </select>                            
+                        </label><br>
+            
+                        <label for="severity"><span class="label-text">Storm Severity:</span>
+                            <input type="range" id="severity" value="1" min="1" max="10" step="1" list="ruler"
+                                oninput="adjustRating(this.value)" 
+                                onchange="adjustRating(this.value)">
+
+                                <datalist id="ruler">
+                                    <option value="0"></option>
+                                    <option value="1"></option>
+                                    <option value="2"></option>
+                                    <option value="3"></option>
+                                    <option value="4"></option>
+                                    <option value="5"></option>
+                                    <option value="6"></option>
+                                    <option value="7"></option>
+                                    <option value="8"></option>
+                                    <option value="9"></option>
+                                    <option value="10"></option>
+                                </datalist>
+                        </label><br>                  
+
+                        <div id="severity-report">
+                            <span class="severity-report-text"><span id="severity-value">1</span> - <span id="severity-desc">Mild</span></span>
+                        </div><br>
+                        
+                        <label for="storm-region"><span class="label-text">Storm Region:</span>
+                            <select id="storm-region">
+                                <option value="" disabled selected>Select a region:</option>
+                                <option value="preston">Preston</option>
+                                <option value="soda-springs">Soda Springs</option>
+                                <option value="fish-haven">Fish Haven</option>
+                            </select>                            
+                        </label><br>
+                        
+                        <label for="additional"><span class="label-text">Additional Information:</span>
+                            <textarea id="additional" name="additional" rows="4" cols="40"></textarea>
+                        </label>
+                    
+                    </fieldset>            
+
+                    <fieldset class="in-danger">
+                        <legend>Are you currently in danger?</legend>
+                        
+                        <div class="radio-selection">
+                            <input type="radio" id="danger-yes" name="danger" value="yes" checked> <label for="danger-yes">Yes</label>
+                        </div>
+
+                        <div class="radio-selection">
+                            <input type="radio" id="danger-no" name="danger" value="no"> <label for="danger-no">No</label>
+                        </div>
+
+                        <div class="radio-selection">
+                            <input type="radio" id="danger-maybe" name="danger" value="no"> <label for="danger-maybe">Maybe</label>
+                        </div>
+                        
+                    </fieldset>
+
+                    <input class="submitBtn" type="submit" value="submit">
+
+                </form>
+            </div>
+        </main>
+
+        <footer>
+            <div id="footer-content">
+                <section class="contact-section">
+                    <h2>Contact Information</h2>
+                    <ul class="footer-contact">
+                        <li class="footer-address">#2 Green St., Preston, ID</li>
+                        <li class="footer-phone">123 456 789</li>
+                        <li class="footer-email"><a href="mailto:storm@watch.tower">storm@watch.tower</a></li>
+                    </ul>
+
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/" title="Facebook" rel="nofollow"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://twitter.com/" title="Twitter" rel="nofollow"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/" title="Instagram" rel="nofollow"><i class="fab fa-instagram-square"></i></a>
+                    </div>
+                </section>
+
+                <img src="images/map_freepic.png" class="footer-map" alt="map" title="Map vector created by freepik - www.freepik.com">
+
+                <section class="copyright">
+                    <h3 class="hidden">Copyright</h3>
+                    <p>Copyright &copy; <span id="footer-date">Friday, October 1, 2021</span><br>
+                        <a href="../">Nephi Malit</a> | <a href="attribution.html">Attribution</a><br>
+                    <a href="https://www.byui.edu/online" title="Online Certificates & Degrees" rel="nofollow">BYU-Idaho Online Learning</a></p>
+                </section>
+
+                <!-- code for slider -->
+                <script src="js/stormcenter.js"></script>
+
+                <!-- header code, footer date -->
+                <script src="js/scripts.js"></script>
+                
+                <!-- Web Font Loader -->
+                <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+                <script>
+                    WebFont.load({
+                        google: {
+                            families: ['Lato', 'Patua One', 'Staatliches']
+                        }
+                    });
+                </script>
+
+            </div>        
+        </footer>
+        
+    </div>
+
+</body>
+
+</html>
+
+
+
