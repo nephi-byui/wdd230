@@ -4,7 +4,7 @@
 
 html {
     background-color: #1a1a1a;
-
+    color: #eeeeee;
     text-align: center;
 }
 
@@ -24,7 +24,6 @@ img {
 }
 
 h1 {
-    color: #eeeeee;
     font-size: 3em;
 }
 
@@ -56,6 +55,9 @@ h2 {
     font-weight: 400;
 }
 
+footer {
+    margin: 20px;
+}
 
 
 
