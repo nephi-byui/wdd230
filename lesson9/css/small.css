@@ -635,6 +635,62 @@ select option:disabled {
     border-radius: 10px;
 }
 
+/* index.html SMALL AND LARGE */
+
+.intro p {
+    text-align: left;
+}
+
+.cards {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 25px;
+}
+
+.cards section {
+    background-color: var(--jet-black);
+    color: var(--almost-white);
+    text-align: center;
+    width: 300px;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.cards section .text-wrapper {
+    margin: auto auto;
+}
+
+.cards section h2,
+.cards section h3,
+.cards section p {
+    color: var(--almost-white);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 400;
+}
+
+.cards section h3.motto {
+    font-size: .8em;
+    font-style: italic;
+    font-family: var(--paragraph-font);
+    font-weight: regular;
+    margin-top: -1em;
+    margin-bottom: 1em;
+}
+
+.cards img {
+    max-width: 100%;
+    width: 300px;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+}
+
+
+
+
+
 
 /* ATTRIBUTION */
 

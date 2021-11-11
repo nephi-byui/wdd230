@@ -279,5 +279,11 @@
 
 	/* end storm center LARGE */
 
+	/* index.html */
 
+
+	.cards {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
 }
