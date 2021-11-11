@@ -491,6 +491,9 @@ ul.footer-contact li:before {
     footer img {
         max-width: 95vw;
     }
+
+    
+
 }
 
 /* GALLERY (small) */
@@ -687,6 +690,31 @@ select option:disabled {
     margin-top: 20px;
 }
 
+/* for super small screens */
+@media only screen and (max-width: 319px) {
+    /* index */
+
+    .cards section {
+        width: 250px;
+    }
+
+    .image-wrapper img {
+        max-width: 250px;
+    }
+}
+
+@media only screen and (max-width: 249px) {
+    /* index */
+
+    .cards section {
+        width: 200px;
+        font-size: .85em;
+    }
+
+    .image-wrapper img {
+        max-width: 200px;
+    }
+}
 
 
 
