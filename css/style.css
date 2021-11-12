@@ -28,9 +28,12 @@ h1 {
 }
 
 h2 {
-  margin-top: -1em;
+  font-family: "Ubuntu", "Open Sans", sans-serif;
   font-size: 1.75em;
+  margin: 0;
 }
+
+
 
 img {
   max-width: 100%;
@@ -42,10 +45,20 @@ img {
   margin: auto;
 }
 
-main {
-  padding: 2em;
+/* main */
+
+.main-content {
+  background-color: none;
+}
+
+.image-wrapper {
+  background-color: none;
+  padding: 20px;
+}
+
+.links {
   background-color: #005580;
-  border-radius: 5px;
+  padding: 20px;
 }
 
 a,
@@ -59,18 +72,42 @@ a:hover {
   color:#57B8FF;
 }
 
-
+.not-required,
+.not-required a,
+.not-required a:visited {
+  opacity: 75%;
+}
 
 /* header */
 
+header {
+  margin-bottom: 25px;
+}
+
+.caption {
+  display: block;
+  font-family: "Lato", sans-serif;
+  margin-top: -50px;
+  font-size: 1.75em;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.image-wrapper {
+  margin: auto;
+}
+
 #profile-photo {
   max-width: 200px;
-  /* float: right; */ /* moved to medium.css */ 
   margin: 1em;
   border-radius: 15em;
   border-style: solid;
   border-width: 2px;
   border-color: #eeeeee;
+  margin: auto auto;
 }
 
 /* footer */
