@@ -67,16 +67,20 @@ a:visited {
   color: #eeeeee;
 }
 
-a:hover {
-  transition: 1s;
-  color:#57B8FF;
-}
-
 .not-required,
 .not-required a,
 .not-required a:visited {
   opacity: 75%;
 }
+
+a:hover {
+  transition: 1s;
+  color:#57B8FF;
+  color: aqua;
+  opacity: 100%;
+}
+
+
 
 /* header */
 
