@@ -224,17 +224,7 @@ var get_forecast_for = function(city_id) {
             // add card to div
             forecastBox.appendChild(card)
         }
-        
-
-
-
-
     })
-
-        
-
-    
-
 }
 
 window.onload = footerDate()

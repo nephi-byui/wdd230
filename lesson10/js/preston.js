@@ -2,8 +2,7 @@
 const fridayBanner = document.querySelector('#friday-banner');
 
 // set class to "visible" if day is Friday (5)
-function check_friday_banner() {
-    
+function check_friday_banner() {    
     today = new Date()
     day = today.getDay();
     if (day == 5) {
@@ -11,11 +10,7 @@ function check_friday_banner() {
     }
 };
 
-check_friday_banner()
-
 // get preston weather
-
-
 const PRESTON = 5604473
 
 populate_weather_summary_for(PRESTON)

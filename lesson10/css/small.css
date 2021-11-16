@@ -750,17 +750,35 @@ select option:disabled {
 
 /* ATTRIBUTION */
 
-.attribution {
-    text-align: center;
+.attribution-cards {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
     display: block;
 }
 
-.attribution li {
+.attribution-cards section {
+    list-style-type: none;
     text-align: center;
-    max-width: 256px;
     padding: 1em;
+    color: white;
+    background-color: var(--jet-black);
+    border-radius: 10px;
+    margin: 10px;
+    display: grid;
 }
 
-.attribution i {
-    font-size: 2em;
+.attribution-cards .wrapper {
+    margin-top: 100px;
+    margin: auto auto;
 }
+
+.attribution-cards a,
+.attribution-cards a:visited {
+    color: white;
+}
+
+.attribution-cards a:hover {
+    color: skyblue;
+}
+

@@ -322,4 +322,11 @@
 		font-size: 12px;
 		margin-top: -15px;
 	}
+
+	/* ATTRIBUTION */
+
+	.attribution-cards {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+	}
 }
