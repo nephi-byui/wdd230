@@ -10,7 +10,7 @@ fetch(requestURL)
         const prophets = jsonObject['prophets'];
 
         for (let i = 0; i < prophets.length; i++ ) {
-            
+                   
             // create card
             let card = document.createElement('section');
 
