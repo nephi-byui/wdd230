@@ -301,6 +301,7 @@ nav {
 
 
 .article h4 {
+    color: var(--almost-white);
     margin-top: 0px;
     margin-bottom: -.5em;
 }
@@ -309,6 +310,10 @@ nav {
     display: block; */
     margin: auto;
     border-radius: 0 0 10px 10px;
+}
+
+.article p {
+    color: var(--almost-white);
 }
 
 /* image should be at bottom in small view
