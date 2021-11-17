@@ -351,6 +351,10 @@ nav {
     color: var(--almost-white);
 }
 
+.events ul {
+    padding-left: 0;
+}
+
 .events li {
     color: var(--almost-white);
     list-style-type: none;

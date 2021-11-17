@@ -256,11 +256,17 @@ var get_events_for = function(town_name) {
             h2.innerHTML = "Upcoming Events:";
             eventsSectionElement.appendChild(h2)
 
+            ul = document.createElement('ul')
+            eventsSectionElement.appendChild(ul)
+
             TownEvents.forEach(event => {
                 let li = document.createElement('li');
                 li.innerHTML = event
-                eventsSectionElement.appendChild(li)
-            });
+                ul.appendChild(li)
+            }
+
+            
+            );
 
 })})}
 
