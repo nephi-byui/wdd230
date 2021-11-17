@@ -316,6 +316,15 @@ nav {
     color: var(--almost-white);
 }
 
+.article .attribution {
+    font-style: italic;
+}
+
+.attribution a,
+.attribution a:visited {
+    color: var(--almost-white)
+}
+
 /* image should be at bottom in small view
     use one-column grid to swap position
     with with paragraphs */
@@ -716,6 +725,24 @@ select option:disabled {
     margin-top: 20px;
 }
 
+.homepage-article {
+    background-color: var(--jet-black);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    padding-top: 0px;
+}
+
+.homepage-article h2,
+.homepage-article p {
+    color: var(--almost-white);
+}
+
+.homepage-article .attribution {
+    font-style: italic;
+    color: skyblue;
+}
+
 /* for super small screens */
 @media only screen and (max-width: 319px) {
     /* index */
@@ -779,4 +806,3 @@ select option:disabled {
 .attribution-cards a:hover {
     color: skyblue;
 }
-

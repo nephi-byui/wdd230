@@ -1,11 +1,11 @@
 /* Media Query for medium views */
 @media only screen and (min-width: 640px) {
 	#content {
-        max-width: 840px;
+    max-width: 840px;
 		margin: auto;
     }
 
-    #header-content {
+  #header-content {
 		max-width: 840px;
 		margin: auto;
     }
@@ -15,10 +15,10 @@
 		margin: auto;
     }
 	
-    #footer-content {
+  #footer-content {
 		max-width: 840px;
-        display: grid;
-    }
+    display: grid;
+  }
 
   /* GALLERY (medium) */
 
