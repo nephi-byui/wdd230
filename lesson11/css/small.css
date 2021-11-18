@@ -800,7 +800,7 @@ select option:disabled {
     /* stormcenter.html */
 
     fieldset {
-        max-width: 280px;
+        max-width: 250px;
     }
 
     .personal-info input,
@@ -810,7 +810,7 @@ select option:disabled {
     .radio-selection,
     textarea {
         margin: auto;
-        width: 260px;
+        width: 200px;
         margin: 0 .25em;
         padding: .25em;;
     }
