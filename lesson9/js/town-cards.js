@@ -12,7 +12,11 @@ fetch(requestURL)
         //document.querySelector('div.cards').innerHTML = "";
         document.querySelector('div.cards').innerHTML = "<!-- Start JSON data import -->";
 
+        const StormwatchBayTowns = [ 'Preston', 'Soda Springs', 'Fish Haven']
+
         for (let i = 0; i < towns.length; i++ ) {
+
+            if ( StormwatchBayTowns.includes(towns[i].name) ) {
             
             // create card
             let card = document.createElement('section');
@@ -67,6 +71,8 @@ fetch(requestURL)
 
             // add card to div
             document.querySelector('div.cards').appendChild(card);
+
+            }
 
         }
 
