@@ -18,10 +18,28 @@
 
 }
 
+/* IMAGES */
+
 img {
 	max-width: 100%;
     height: auto;
 }
+
+/* LAZY LOADING */
+
+/* blur images with a data-src attribute */
+img[data-src] {
+    filter: blur(0.2em);
+}
+
+/* unblur those that do not */
+img {
+    filter: blur(0em);
+    transition: filter 1.25s;
+}
+
+
+
 
 html {
     overflow-y: scroll;

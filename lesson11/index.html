@@ -62,7 +62,7 @@
                 <picture>
                     <source srcset="images/hero_image/home_hero_840.jpg" media="(min-width:640px) and (max-width:1007px)">
                         <source srcset="images/hero_image/home_hero_960.jpg" media="(min-width:1008px)">
-                    <img class="hero-image" src="images/hero_image/home_hero_640.jpg" alt="a picture of the waterfront on the coastal city of Preston, Idaho" title="Photo by Stevan Aksentijevic from Pexels">
+                    <img class="hero-image" src="images/hero_image/home_hero_placeholder.jpg" data-src="images/hero_image/home_hero_640.jpg" alt="a picture of the waterfront on the coastal city of Preston, Idaho" title="Photo by Stevan Aksentijevic from Pexels">
                 </picture>
 
                 <div class="cards">
@@ -112,8 +112,11 @@
                 <!-- Town Cards -->
                 <script src="js/town-cards.js"></script>
 
-                <!-- header code, footer date -->
-                <script src="js/scripts.js"></script>                
+                <!-- global scripts -->
+                <script src="js/scripts.js"></script>
+                
+                <!-- lazy load images-->
+                <script src="js/lazyload.js" defer></script>
 
                 <!-- Web Font Loader -->
                 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
