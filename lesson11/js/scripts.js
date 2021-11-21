@@ -130,6 +130,21 @@ var get_weather_summary_for = function(city_id) {
         document.querySelector(".var-humidity").innerHTML = humidity
         document.querySelector(".var-wind-speed").innerHTML = wind_speed_string
 
+        if (wind_chill == "N/A") {
+            if (temp_f > 50 && wind_speed_mph <= 3) {
+                var windchill_message = "* wind chill undefined, temperature above 50°F, wind speed must be higher than 3 mph"
+            }
+            
+            else if (temp_f > 50 && wind_speed_mph > 3) {
+                var windchill_message = "* wind chill undefined, temperature above 50°F"
+            }
+
+            else if (temp_f <= 50 && wind_speed_mph <= 3) {
+                var windchill_message = "* wind chill undefined, wind speed must be higher than 3 mph"
+            }
+            document.querySelector(".wind-chill-message").innerHTML = windchill_message
+        }
+
     })
 }
 

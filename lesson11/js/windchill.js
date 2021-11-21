@@ -14,7 +14,6 @@ function get_wind_chill(temp_f,wind_speed_mph) {
     }
 
     else {
-
         return "N/A"
     }
 }

@@ -275,7 +275,7 @@ nav {
 
 .hero-section li {
 
-    font-size: 1.05em;
+    font-size: 17px;
     list-style-type: none;
     
     font-weight: 400;
@@ -290,6 +290,12 @@ nav {
     display: inline-block;
     text-align: left;
     width: 125px;
+}
+
+.wind-chill-message {
+    color: var(--celadon);
+    font-size: 12px;
+    font-style: italic;
 }
 
 /* FORECAST SECTION */
