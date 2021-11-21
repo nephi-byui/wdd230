@@ -5,8 +5,10 @@ fetch(requestURL)
         return response.json();
     })
     .then(function (jsonObject) {
-        console.table(jsonObject);
-
+        if (DEBUG_MODE === true) {
+            console.table(jsonObject);
+            }
+        
         const towns = jsonObject['towns'];
 
         //document.querySelector('div.cards').innerHTML = "";

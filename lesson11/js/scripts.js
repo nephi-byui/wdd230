@@ -1,7 +1,7 @@
 /* GLOBAL */
 
 /* turn off console.log() stuff when off */
-let DEBUG_MODE = new Boolean(true)
+let DEBUG_MODE = new Boolean(false)
 
 if (DEBUG_MODE == true){
     console.log("***** DEBUG MODE IS ON *****")
@@ -239,12 +239,16 @@ var get_events_for = function(town_name) {
         .then(function (jsonObject) {            
             // loaded towns
             const towns = jsonObject['towns']
+            if (DEBUG_MODE === true) {
             console.table(towns)
+            }
 
             towns.forEach(town => {
                 if (town.name === town_name) {
                     TownEvents = town.events
-                    console.log(TownEvents)
+                    if (DEBUG_MODE === true) {
+                        console.table(TownEvents)
+                        }
                 }
 
             const eventsSectionElement = document.querySelector(".events")
