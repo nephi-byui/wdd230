@@ -260,8 +260,12 @@ nav {
     border-radius: 10px;
 }
 
-.hero-section h2 {
+.weather-summary h2 {
+    font-size: 25px;
+    margin-left: 15px;
+
     font-weight: 400;
+    font-style: var(--heading-font);
     color: var(--almost-white);
 
     margin-top: .5em;
@@ -321,7 +325,7 @@ nav {
 
 .article h4 {
     color: var(--almost-white);
-    margin-top: 0px;
+    margin-top: 10px;
     margin-bottom: -.5em;
     margin-left: 10px;
     padding: 10px;
@@ -735,6 +739,11 @@ select option:disabled {
 .homepage-article h2,
 .homepage-article p {
     color: var(--almost-white);
+}
+
+.homepage-article h2 {
+    margin: 15px;
+    padding-top: 20px;
 }
 
 .homepage-article .attribution {
