@@ -106,11 +106,10 @@ var get_weather_summary_for = function(city_id) {
         //the wind speed, and
         const m_per_sec = weatherJSON.wind.speed;
         const wind_speed_mph = m_per_sec * 2.236936
-        const wind_speed_string = `${wind_speed_mph.toFixed(1)} mph`
+        const wind_speed_string = `${wind_speed_mph.toFixed(1)}`
 
         //should still calculate and display the wind chill factor.
         const wind_chill = get_wind_chill(temp_f,wind_speed_mph)
-        //wind_chill = wind_chill_float.toFixed(1)
 
         if (DEBUG_MODE == true) {
         console.log('*DEBUG MODE IS ON*')

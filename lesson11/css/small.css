@@ -66,12 +66,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2, h3, h4 {
-    font-size: 2.5em;
-    padding: .5em;
+    font-size: 35px;
+    padding: 5px;
 }
 
 p {
-    font-size: 1.25em;
+    font-size: 20px;
     padding: .5em;
     margin: .5em;
 }
@@ -110,8 +110,8 @@ header a:visited {
 }
 
 #site-logo {
-	max-width: 5em;
-	padding: .5em;
+	max-width: 75px;
+	padding: 10px;
 }
 
 .site-title {
@@ -317,11 +317,13 @@ nav {
     color: var(--almost-white);
 }
 
-
 .article h4 {
     color: var(--almost-white);
     margin-top: 0px;
     margin-bottom: -.5em;
+    margin-left: 10px;
+    padding: 10px;
+    font-size: 30px;
 }
 
 .article img { /*
