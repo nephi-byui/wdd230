@@ -32,6 +32,7 @@
 * https://validator.w3.org/nu/?doc=https%3A%2F%2Fnephi-byui.github.io%2Fwdd230%2Flesson11%2Fgallery.html
 * https://jigsaw.w3.org/css-validator/validator?profile=css3&warning=0&uri=https%3A%2F%2Fnephi-byui.github.io%2Fwdd230%2Flesson11%2Fgallery.html
 * https://wave.webaim.org/report#/https%3A%2F%2Fnephi-byui.github.io%2Fwdd230%2Flesson11%2Fgallery.html
+* https://pagespeed.web.dev/report?url=https%3A%2F%2Fnephi-byui.github.io%2Fwdd230%2Flesson11%2Fgallery.html [ 93 mobile, 99 desktop ]
 
 ## attribution.html
 * https://validator.w3.org/nu/?doc=https%3A%2F%2Fnephi-byui.github.io%2Fwdd230%2Flesson11%2Fattribution.html
