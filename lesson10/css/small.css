@@ -334,6 +334,10 @@ nav {
     color: var(--almost-white);
 }
 
+.article-content p,
+.forecast-article-box h4 {
+    color: var(--almost-white);
+}
 
 .article h4 {
     margin-top: 0px;
