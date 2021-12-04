@@ -1,0 +1,282 @@
+/* https://coolors.co/272932-4d7ea8-828489-9e90a2-b6c2d9 */
+
+
+/* small / baseline */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Ubuntu:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Patua+One&family=Staatliches&display=swap');
+
+
+/* fonts for website plan */
+@import url('https://fonts.googleapis.com/css2?family=Forum&family=Merriweather+Sans:wght@500&family=Merriweather:ital,wght@0,400;0,700;1,400;1,900&display=swap');
+body {
+  background-color: #111111;
+}
+
+p,
+li,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Lato", Arial, sans-serif;
+  color: #dddddd;
+}
+
+header {
+  text-align: center;
+}
+
+h1 {
+    font-family: "Ubuntu", "Open Sans", sans-serif;
+    font-size: 5em;
+  }
+  
+
+h2 {
+    font-family: "Lato", Arial, sans-serif;
+    font-size: 2.5em;
+    margin-top: -1em;
+}
+
+h3 {
+    font-weight: 400;
+    font-family: Staatliches;
+    font-size: 3em;
+    padding: 0em;
+    margin-top: 0em;
+    margin-bottom: 0.5em;
+
+}
+img {
+  max-width: 100%;
+}
+
+#content {
+  color: #eeeeee;
+  max-width: 50em;
+  margin: auto;
+}
+
+main {
+  padding: 2em;
+  background-color: #3c3f30;
+  border-radius: 5px;
+}
+
+a,
+a:visited {
+  transition: 1s;
+  color: #eeeeee;
+}
+
+a:hover {
+  transition: 1s;
+  color:#57B8FF;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  padding: 3em;
+}
+
+
+/* header */
+
+header {
+    display: block;
+}
+
+nav {
+    background-color: #005580;
+    padding: 0px;
+    font-weight: bold;
+}
+
+nav > ul > li {
+    padding: 1em;
+    list-style-type: none;
+}
+
+nav > ul > li > a,
+nav > ul > li > a:visited {
+    color: #bbbbbb;
+}
+
+nav > ul > li > a:hover{
+    color: #ffffff;
+}
+
+nav > ul > li > a.current-page {
+    color: #57B8FF;
+}
+
+nav > ul > li > a.current-page:hover {
+    color: #ffffff;
+}
+
+/* footer */
+
+#home-button {
+    font-family: "Lato", sans-serif;
+    padding: .5em;
+    font-size: 1.25em;
+    background-color:#eeeeee;
+    color:#111111;
+    text-align: center;
+    border-radius: 15px;
+    transition: 1s;
+}
+
+#home-button:hover {
+    background-color: #57B8FF;
+    transition: 1s;
+}
+
+/* index */
+
+.domain-name {
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: .5em;
+}
+
+.domains-pic {
+/*    max-width: 28em; */
+    border-radius: 1em;
+}
+
+.proposed-logo {
+    max-width: 24em;
+    padding: 2em;
+    border-radius: 1em;
+}
+
+
+/* color-scheme.html */
+
+
+
+#color-boxes {
+    text-align: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    font-family: "Ubuntu", "Open Sans", sans-serif;
+}
+
+.colorbox {
+    padding: 1em;
+    margin: 5px;
+    border-radius: 1em;
+}
+
+.color-1 {
+    background-color: #272932;
+}
+
+.color-2 {
+    background-color: #4D7EA8;
+}
+
+.color-3 {
+    background-color: #828489;
+}
+
+.color-4 {
+    background-color: #B3001B;
+}
+
+.color-5 {
+    background-color: #B6C2D9;
+    color: #222222;
+}
+
+
+.hex-code {
+    font-size: 1.5em;
+}
+
+.color-name {
+    font-size: .8em;
+    opacity: 80%;
+}
+
+/* target-audience.html */
+
+.persona-tiles {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.persona {
+    text-align: center;
+    padding: 10px;
+}
+
+.persona-photo {
+    border-radius: 1em;
+    max-width: 100%;
+}
+
+.attribution {
+    opacity: 50%;
+    font-size: .8em;
+}
+
+.persona h4 {
+    font-size: 2.5em;
+}
+
+
+/* typography.html */
+
+.font-box {
+    background-color: #333333;
+    color: white;
+    padding: 1em;
+    border-radius: 1em;
+    margin: 1em;
+}
+
+h4 {
+    font-size: 35px;
+    padding: 0em;
+    margin: 0em;
+}
+
+#heading-font-1 h4 {
+    font-family: Forum;
+    font-weight: 400;
+    font-size: 50px;
+}
+
+#heading-font-2 h4 {
+    font-family: 'Merriweather Sans'
+}
+
+#paragraph-font-1 h4 {
+    font-size: 20px;
+    font-family: Merriweather;
+    font-weight: 400;
+}
+
+.font-lato {
+    font-family: Lato;
+    font-weight: 400;
+}
+
+.font-desc {
+    color: cyan;
+    font-family: Ubuntu;
+}
+
+.font-desc {
+    opacity: 50%;
+}

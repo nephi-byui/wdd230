@@ -1,0 +1,21 @@
+@media screen and (max-width: 32em) {
+    /*nav > ul > li {
+        font-size: 1.25em;
+        padding: .5em;
+    }
+
+    h1 {
+        font-size: 3.5em;
+    }
+
+    */
+
+} 
+
+/* color-scheme.html */
+
+@media screen and (max-width: 40em) {
+    #color-boxes {
+        display: block;
+    }
+}

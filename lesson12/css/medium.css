@@ -1,0 +1,35 @@
+@media screen and (min-width: 860px) {
+    nav ul{
+        display: flex;
+        text-align: center;
+        padding: .5em; 
+        }
+
+    nav ul li {
+        flex: 1 1 50%;
+
+    } 
+    h1 {
+        font-size: 5em;
+    }
+
+
+    
+    .persona-tiles {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .persona {
+        border-radius: 15px;
+        margin: 10px;
+    }
+}
+/*
+
+@media screen and (min-width: 40em) {
+    #color-boxes {
+        display: grid;
+    }
+}
+
+*/
