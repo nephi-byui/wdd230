@@ -76,6 +76,16 @@
     grid-column: 1/-1;
   }
 
+  .board {
+		text-align: center;
+    margin: auto;
+		grid-column: 1/-1;
+	}
+
+  .board li {
+    margin-left: -1em;
+  }
+
 }
 
 /* do not apply to LARGE */
