@@ -23,3 +23,11 @@
 
 ## DIRECTORY
 * https://nephi-byui.github.io/wdd230/lesson14/directory.html
+* https://validator.w3.org/nu/?doc=https%3A%2F%2Fnephi-byui.github.io%2Fwdd230%2Flesson14%2Fdirectory.html
+* https://jigsaw.w3.org/css-validator/validator?profile=css3&warning=0&uri=https%3A%2F%2Fnephi-byui.github.io%2Fwdd230%2Flesson14%2Fdirectory.html
+* https://wave.webaim.org/report#/https%3A%2F%2Fnephi-byui.github.io%2Fwdd230%2Flesson14%2Fdirectory.html
+* https://validator.w3.org/checklink?check=Check&hide_type=all&summary=on&uri=https%3A%2F%2Fnephi-byui.github.io%2Fwdd230%2Flesson14%2Fdirectory.html
+* https://pagespeed.web.dev/report?url=https%3A%2F%2Fnephi-byui.github.io%2Fwdd230%2Flesson14%2Fdirectory.html - MOBILE 93, DESKTOP 99
+
+## CONTACT
+* https://nephi-byui.github.io/wdd230/lesson14/contact.html
