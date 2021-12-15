@@ -387,7 +387,9 @@ div.cta {
     font-size: 25px;
 }
 
+.submitBtn,
 .cta-card button {
+    text-transform: capitalize;
     border-radius: 10px;
     background-color: var(--raisin-black);
     border-color: var(--steel-blue);
@@ -398,6 +400,7 @@ div.cta {
     transition: .5s;
 }
 
+.submitBtn:hover,
 .cta-card button:hover {
     background-color: var(--firebrick);
     transition: .5s;
@@ -568,6 +571,108 @@ footer a:hover {
 .qc-page h2 {
     text-align: center;
 }
+
+
+/* join.html */
+
+fieldset {
+    max-width: 100%;
+    text-align: center;
+}
+
+legend {
+    font-family: var(--heading-font);
+    text-transform: uppercase;
+    font-size: 1.25em;
+    margin-bottom: 10px;
+}
+
+input {
+    margin: auto;
+    display: block;
+}
+
+.label-text {
+    margin: auto;
+    text-align: left;
+}
+
+.membership {
+    text-align: center;
+}
+
+.membership legend {
+    text-align: center;
+}
+
+.membership input,
+.membership label {
+    display: inline-block;
+}
+
+.membership input {
+    margin-left: 25px;
+}
+
+.radio-wrapper {
+    padding: 1em;
+    width: 96%;
+    margin: 10px auto;
+    display: grid;
+    grid-column-gap: 10px;
+    grid-template-columns: 1fr;
+}
+
+.radio-selection {
+    margin: auto;
+    width: 95%;
+    height: 100%;
+    padding: 1em;
+}
+
+.option-card input {
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+
+.option-card label {
+    display: block;
+    text-align: center;
+    font-family: var(--heading-font);
+    text-transform: uppercase;
+    margin: auto;
+    font-size: 1.5em;
+}
+
+.option-card li {
+    list-style-type: none;
+    text-align: center;
+    margin: auto;
+    margin-left: -35px;
+    font-size: .8em;
+}
+
+.option-card:nth-child(2) {
+    background-color: var(--almost-white);
+}
+
+.option-card:nth-child(3) {
+    background-color: #CD7F32;
+}
+
+.option-card:nth-child(4) {
+    background-color: var(--steel-blue);
+}
+
+.option-card:nth-child(5) {
+    background-color: goldenrod;
+}
+
+form .button-wrapper {
+    margin: auto;
+}
+
 
 /* ATTRIBUTION */
 

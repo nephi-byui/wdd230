@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Quezon City Chamber of Commerce - Join</title>
+    <meta name="description" content="The Quezon City Chamber of Commerce - Join">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.svg">
+    
+    <link rel="stylesheet" href="css/minified_normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/7065f50360.js" crossorigin="anonymous" defer></script>
+
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+</head>
+
+<body>
+
+    <div id="content">
+        <header>
+            <div id="header-content">
+                
+                <div class="upper-header">
+                    <img id="site-logo" src="images/logo.svg" alt="picture of a tower" height="75" width="75">
+                    <section class=site-title>
+                        <h2>Quezon City Chamber of Commerce</h2>
+                    </section>
+
+                    <button class="nav-toggle">&#9776;</button>
+                </div>           
+                
+                <div class="nav-wrapper">
+                    <nav>
+                        <ul class="navigation">                    
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="quezon-city.html">Quezon City</a></li>
+                            <li><a href="join.html" class="active">Join</a></li>
+                            <li><a href="directory.html">Directory</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div id="main-content">
+
+                <div class="page-title-container">
+                    <div class="title-stripe">
+                        <h1 class="page-title">Join</h1>
+                    </div>
+                </div>
+
+                <div class="join-page">
+
+
+
+                    <form method="get" action="thank-you.html">
+
+
+                        <fieldset class="personal-info">
+                            <legend>Personal Information</legend>
+    
+                            <label for="fname"><span class="label-text">*First Name:</span>
+                                <input type="text" name="fname" id="fname" pattern="[a-zA-Z]{2,}" required>
+                            </label><br>
+
+                            <label for="lname"><span class="label-text">*Last Name:</span>
+                                <input type="text" name="lname" id="lname" pattern="[a-zA-Z]{2,}" required>
+                            </label><br>
+
+                            <label for="title"><span class="label-text">Title:</span>
+                                <input type="text" name="title" id="title">
+                            </label><br>
+                            
+                            <label for="email"><span class="label-text">*Email:</span>
+                                <input type="email" name="email" id="email" placeholder="your@mail.com" required>
+                            </label><br>
+                            
+                            <label for="phone"><span class="label-text">Phone Number:</span>
+                                <input type="tel" name="phone" id="phone">
+                            </label><br>                           
+    
+                        </fieldset>
+                
+                        <fieldset class="business-info">
+                            <legend>Business Information</legend>
+
+                            <label for="bname"><span class="label-text">*Business Name:</span>
+                                <input type="text" name="bname" id="bname" required>
+                            </label><br>
+
+                            <label for="b-address"><span class="label-text">Business Address:</span>
+                                <input type="text" name="b-address" id="b-address">
+                            </label><br>
+
+                            <label for="b-website"><span class="label-text">Business Website:</span>
+                                <input type="text" name="b-website" id="b-website">
+                            </label><br>
+
+                            <label for="b-desc"><span class="label-text">Business Description:</span>
+                                <input type="text" name="b-desc" id="b-desc">
+                            </label><br>
+                        </fieldset>
+
+                        <fieldset class="radio-wrapper">
+
+                            <legend>Membership</legend>
+                            
+                            <div class="option-card">
+                                <input type="radio" id="nonprofit" name="membership" value="yes"><br>
+                                <label for="nonprofit">Non-profit</label>
+                                    <ul>
+                                        <li>Annual Fee: $100</li>
+                                        <li>Directory Listing</li>
+                                    </ul>                                    
+                            </div>
+
+                            <div class="option-card">
+                                <input type="radio" id="bronze" name="membership" value="bronze" checked><br>
+                                <label for="bronze">Bronze</label>
+                                <ul>
+                                    <li>Annual Fee: $200</li>
+                                    <li>Directory Listing</li>
+                                    <li>Business Training</li>
+                                    <li>$100 Ad Credit</li>
+                                </ul>
+                            </div>
+    
+                            <div class="option-card">
+                                <input type="radio" id="silver" name="membership" value="silver"><br>
+                                <label for="silver">Silver</label>
+                                <ul>
+                                    <li>Annual Fee: $400</li>
+                                    <li>Directory Listing</li>
+                                    <li>Business Training</li>
+                                    <li>$200 Ad Credit</li>
+                                    <li>Sponsor slot</li>
+                                </ul>
+                            </div>
+    
+                            <div class="option-card">
+                                <input type="radio" id="gold" name="membership" value="gold"><br>
+                                <label for="gold">Gold</label>
+                                <ul>
+                                    <li>Annual Fee: $1000</li>
+                                    <li>Directory Listing</li>
+                                    <li>Business Training</li>
+                                    <li>$500 Ad Credit</li>
+                                    <li>Use of Conference Hall</li>
+                                    <li>Comp. Club Membership</li>
+                                    <li>Comp. Airline and Hotel Tickets</li>
+                                </ul>
+                            </div>
+
+                        </fieldset>
+                        
+                        <div class="button-wrapper">
+                            <input class="submitBtn" type="submit" value="submit">
+                        </div>
+
+                    </form>
+                
+                </div>
+                    
+            </div>
+                
+            </div>
+        </main>
+
+        <footer>
+            <div id="footer-content">
+                <section class="copyright">
+                    <h3 class="hidden">Copyright</h3>
+                    <p>Copyright &copy; <span id="footer-date">Friday, October 1, 2021</span><br>
+                        <a href="../">Nephi Malit</a> | <a href="attribution.html">Attribution</a><br>
+                    <a href="https://www.byui.edu/online" title="Online Certificates & Degrees" rel="nofollow">BYU-Idaho Online Learning</a></p>
+                </section>
+
+                <!-- global scripts -->
+                <script src="js/scripts.js" defer></script>
+
+                <!-- page-specific scripts -->
+                <script src="js/join.js"></script>
+
+                <!-- Web Font Loader -->
+                <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+                
+                <script>
+                    WebFont.load({
+                        google: {
+                            families: ['Forum', 'Merriweather', 'Merriweather Sans']
+                        }
+                    });
+                </script>
+
+            </div>        
+        </footer>
+        
+    </div>
+
+</body>
+
+</html>
+
+
+

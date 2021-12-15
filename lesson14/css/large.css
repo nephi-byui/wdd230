@@ -149,6 +149,25 @@
 		grid-column: 1/-1;
 	}
 
+	/* JOIN.html */
+
+	.join-page form {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.join-page form fieldset:nth-child(3) {
+		grid-column: 1/-1;
+	}
+
+	.join-page form .button-wrapper {
+		grid-column: 1/-1;
+	}
+
+	  .radio-wrapper {
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	}
+
 	/* ATTRIBUTION */
 
 	.attribution-cards {
