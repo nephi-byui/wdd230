@@ -537,6 +537,32 @@ div.cta {
     display: none;
 }
 
+/* contact */
+
+.contact-page-content {
+    display: grid;
+}
+
+.contact-page-content li {
+    font-size: 1.75em;
+    list-style-type: none;
+}
+
+.contact-page-content textarea {
+    resize: none;
+    height: 5em;
+}
+
+
+.google-map iframe {
+    display: block;
+    margin: 15px auto;
+    width: 100%;
+    height: 320px;
+}
+
+
+
 
 /* FOOTER */
 
