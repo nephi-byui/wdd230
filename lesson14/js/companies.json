@@ -1,0 +1,46 @@
+{
+  "companies": [
+        {
+            "name": "LBC",
+            "logo": "lbc.png",
+            "contact": "1800 10 858 5999",
+            "website": "https://www.lbcexpress.com/"
+            },
+        {
+            "name": "Ice Cream House",
+            "logo": "ice-cream-house.png",
+            "contact": "(02) 8355 0067",
+            "website": "https://www.facebook.com/icecreamhouseph/"
+        },
+        {
+            "name": "Meralco",
+            "logo": "meralco.png",
+            "contact": "(02) 16211",
+            "website": "https://www.meralco.com.ph/"
+        },
+        {
+            "name": "RCBC",
+            "logo": "rcbc.png",
+            "contact": "(02) 8355 7066",
+            "website": "https://www.rcbc.com"
+        },
+        {
+            "name": "Burger Machine",
+            "logo": "burger-machine.png",
+            "contact": "(02) 928 4687",
+            "website": "https://www.facebook.com/burgermachineofficial/"
+        },
+        {
+            "name": "Maynilad",
+            "logo": "maynilad.png",
+            "contact": " 1800 10 009 2837",
+            "website": "https://www.facebook.com/icecreamhouseph/"
+        },
+        {
+            "name": "San Miguel Corporation",
+            "logo": "smc.png",
+            "contact": "(632) 8632-3000",
+            "website": "https://www.sanmiguel.com.ph/"
+        }
+    ]
+}

@@ -20,17 +20,47 @@
     display: grid;
   }
 
-  /* GALLERY (medium) */
 
-  .weather-images {
+  /* directory */
+
+  div.view-options {
+    display: block;
+    margin: auto;
+    text-align: right;
+  }
+
+  .view-options button {
+    font-size: 2em;
+    padding: 10px;
+  }
+
+  .view-options button.activated {
+    background-color: var(--absolute-zero);
+    color: var(--almost-white);
+  }
+
+  /* cards view */
+
+  #directory-cards.cards-view {
+    grid-template-columns:  1fr 1fr;
+  }
+  
+  /* cards list view */
+
+  #directory-cards.list-view {
+    grid-template-columns: 1fr;
+  }
+
+  #directory-cards.list-view section {
+    width: 100%;
+    display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
-  
-
- 
-
-
+  #directory-cards.list-view section img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
 
 }
 
@@ -41,7 +71,7 @@
       margin: auto;
   }
 
-  .cards {
+  .cards.homepage {
       display: grid;
       grid-template-columns: 1fr;
       margin: auto;
@@ -49,7 +79,7 @@
       align-items: center;
   }
 
-  .cards section {
+  .cards.homepage section {
       width: 600px;
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -59,17 +89,17 @@
 
   }
 
-  .cards section img {
+  .cards.homepage section img {
       padding: 0;
       margin: 0;
   }
 
-  .cards section:nth-child(even) .img-wrapper {
+  .cards.homepage section:nth-child(even) .img-wrapper {
       grid-column: 1/2;
       grid-row: 1/2;
   }
   
-  .cards section:nth-child(odd) .img-wrapper {
+  .cards.homepage section:nth-child(odd) .img-wrapper {
     grid-column: 2/3;
     grid-row: 1/2;
   }
@@ -77,6 +107,12 @@
   .text-wrapper h2 {
     margin-top: -20px;
   }
+
+  /* directory.html */
+
+
+
+
 
   /* ATTRIBUTION */
 

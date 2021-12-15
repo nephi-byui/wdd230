@@ -167,6 +167,12 @@
 	  .radio-wrapper {
 		grid-template-columns: 1fr 1fr 1fr 1fr;
 	}
+	
+	/* directory.html */
+
+	#directory-cards.cards-view {
+		grid-template-columns:  1fr 1fr 1fr;
+	}
 
 	/* ATTRIBUTION */
 
