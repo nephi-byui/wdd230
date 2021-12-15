@@ -2,11 +2,11 @@
 const CardsDiv = document.getElementById('directory-cards')
 const CardsViewButton = document.getElementById('cards-view')
 const ListViewButton = document.getElementById('list-view')
-
-
-const requestURL = 'https://run.mocky.io/v3/9189e2c3-872e-488b-a4c7-83bde983fae6';
+\
+const requestURL = 'https://nephi-byui.github.io/wdd230/lesson14/js/companies.json';
 /* delete link */
-/* https://designer.mocky.io/manage/delete/9189e2c3-872e-488b-a4c7-83bde983fae6/N6x43lVhLVUyNz9eSJ5sqzDLdNivMeXRBN3S */
+/* MOCKY: https://run.mocky.io/v3/9189e2c3-872e-488b-a4c7-83bde983fae6' */
+/* MOCKY DELETE: https://designer.mocky.io/manage/delete/9189e2c3-872e-488b-a4c7-83bde983fae6/N6x43lVhLVUyNz9eSJ5sqzDLdNivMeXRBN3S */
 
 
 
