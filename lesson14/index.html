@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stormwatch Tower - Weather Updates</title>
+    <meta name="description" content="Stormwatch Tower - Weather Updates">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/logo.svg">
+    
+    <link rel="stylesheet" href="css/minified_normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/7065f50360.js" crossorigin="anonymous" defer></script>
+
+    <meta name="robots" content="noindex">
+    <meta name="googlebot" content="noindex">
+</head>
+
+<body>
+
+    <div id="content">
+        <header>
+            <div id="header-content">
+                
+                <div id="weather-alert">
+                    <span>Typhoon Odette arrives Dec. 14.</span>
+                    <button id="weather-alert-close">X</button>
+                </div>
+
+                <div class="upper-header">
+                    <img id="site-logo" src="images/logo.svg" alt="picture of a tower" height="75" width="75">
+                    <section class=site-title>
+                        <h2>Quezon City Chamber of Commerce</h2>
+                    </section>
+
+                    <button class="nav-toggle">&#9776;</button>
+                </div>           
+                
+                <div class="nav-wrapper">
+                    <nav>
+                        <ul class="navigation">                    
+                            <li><a href="index.html" class="active">Home</a></li>
+                            <li><a href="quezon-city">Quezon City</a></li>
+                            <li><a href="join.html">Join</a></li>
+                            <li><a href="directory.html">Directory</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div id="main-content">
+                <div class="page-title-container">
+                    <div class="title-stripe">
+                        <h1 class="page-title">Home</h1>
+                    </div>
+                </div>
+                
+                <picture>
+                    <source srcset="images/hero_image/home/840.jpg" media="(min-width:640px) and (max-width:1007px)">
+                    <source srcset="images/hero_image/home/960.jpg" media="(min-width:1008px)">
+                    <img class="hero-image" src="images/hero_image/home/placeholder.jpg" data-src="images/hero_image/home/640.jpg" alt="a lighthouse on a cliff" title="Photo by Stevan Aksentijevic from Pexels" width="960" height="466">
+                </picture>
+
+                
+                <section class="cards">
+
+                    <h2>Members</h2>
+                    
+                    <section>
+                        <div class="text-wrapper">
+                            <h3>LBC</h3>
+                            <p>The LBC brand is synonymous with logistics, with its nationwide reach and network.</p>
+                        </div>
+                        <div class="img-wrapper">
+                            <img src="images/towns/placeholder.jpg" data-src="images/companies/lbc.png"alt="LBC Logo" height="300" width="300">
+                        </div>
+                    </section>
+
+                    <section>
+                        <div class="text-wrapper">
+                            <h3>SMC</h3>
+                            <p>San Miguel Corporation is one of the Philippines' largest and oldest companies.</p>
+                        </div>
+                        <div class="img-wrapper">
+                            <img src="images/towns/placeholder.jpg" data-src="images/companies/smc.png"alt="SMC Logo" height="300" width="300">
+                        </div>
+                    </section>
+
+                    <section>
+                        <div class="text-wrapper">
+                            <h3>SM</h3>
+                            <p>With interests in retail, real estate, and banking, SM is one of QC's largest employers.</p>
+                        </div>
+                        <div class="img-wrapper">
+                            <img src="images/towns/placeholder.jpg" data-src="images/companies/sm.png"alt="SM Logo" height="300" width="300">
+                        </div>
+                    </section>
+                </section>
+
+                <div class="cta">
+
+                    <section class="cta-card">
+                        <p>Join the Chamber today and help build the future of Quezon City.</p>
+                        <button>Join</button>
+                    </section>
+
+                </div>
+
+                <div class="events-and-weather">
+
+                    <section class="events">
+                        <h2>Events</h2>
+                        <ul>
+                            <li>February 29: Geyser Song Day</li>
+                            <li>May 1-6: Days of May Celebration</li>
+                            <li>October 15-16: Octoberfest</li>
+                            <li>October 15-16: Octoberfest</li>
+                        </ul>
+                        
+                    </section>
+
+                    <section class="weather">
+
+                        <h2>Weather</h2>                            
+                        <ul>
+                            <li><span class="left-column">Currently: </span><span class="var-weather-desc right-column">N/A</span></li>
+                            <li><span class="left-column">High: </span><span class="var-temp-f right-column">N/A</span> &#176;F</li>
+                            <li><span class="left-column">Wind Chill: </span><span class="var-wind-chill right-column">N/A</span></li>
+                            <li><span class="left-column">Humidity: </span><span class="var-humidity right-column">N/A</span>%</li>
+                            <li><span class="left-column">Wind Speed: </span><span class="var-wind-speed right-column">N/A</span> mph</li>
+                            <li><span class="wind-chill-message"></span></li>
+                        </ul>     
+                        
+
+                    </section>
+
+                </div>
+
+                <section class="contact">
+                    
+                    <h2>Contact</h2>
+                    <ul>
+                        <li class="contact-address">QCC Bldg, 1 QC Ave., Q.C. </li>
+                        <li class="contact-phone">123 456 789</li>
+                        <li class="contact-email"><a href="mailto:storm@watch.tower">cc@qc.cc</a></li>
+                    </ul>
+
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/" title="Facebook" rel="nofollow"><i class="fab fa-facebook-square"></i></a>
+                        <a href="https://twitter.com/" title="Twitter" rel="nofollow"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/" title="Instagram" rel="nofollow"><i class="fab fa-instagram-square"></i></a>
+                    </div>
+                </section>
+
+
+
+            </div>
+        </main>
+
+        <footer>
+            <div id="footer-content">
+                <section class="copyright">
+                    <h3 class="hidden">Copyright</h3>
+                    <p>Copyright &copy; <span id="footer-date">Friday, October 1, 2021</span><br>
+                        <a href="../">Nephi Malit</a> | <a href="attribution.html">Attribution</a><br>
+                    <a href="https://www.byui.edu/online" title="Online Certificates & Degrees" rel="nofollow">BYU-Idaho Online Learning</a></p>
+                </section>
+
+
+
+                <!-- global scripts -->
+                <script src="js/scripts.js" defer></script>
+
+                <!-- page-specific scripts -->
+                <script src="js/index.js"></script>
+
+                <!-- Web Font Loader -->
+                <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+                
+                <script>
+                    WebFont.load({
+                        google: {
+                            families: ['Lato', 'Patua One', 'Staatliches']
+                        }
+                    });
+                </script>
+
+            </div>        
+        </footer>
+        
+    </div>
+
+</body>
+
+</html>
+
+
+
