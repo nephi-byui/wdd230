@@ -135,6 +135,7 @@ header a:visited {
 }
 
 #site-logo {
+    margin-left: 10px;
 	max-width: 75px;
 	padding: 10px;
 }
@@ -142,6 +143,7 @@ header a:visited {
 .site-title {
 	display: block;
 	padding: .5em;
+    margin: auto;
 }
 
 .site-title h2 {
@@ -253,7 +255,7 @@ nav {
     background-color: var(--absolute-zero);
     height: auto;
     margin-top: -1.5em;
-    border-radius: 0 0 10px 10px;
+    border-radius: 0;
     margin-bottom: .5em;
 }
 
@@ -275,7 +277,6 @@ nav {
 .hero-image {
     margin: 0;
     padding: 0;
-    border-radius: 10px;
 }
 
 /* INDEX >> Who we are*/
@@ -562,28 +563,11 @@ footer a:hover {
     text-align: center;
 }
 
-/* footer contact icons*/
+/* QUEZON CITY */
 
-
-
-
-
-/* footer social links */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.qc-page h2 {
+    text-align: center;
+}
 
 /* ATTRIBUTION */
 

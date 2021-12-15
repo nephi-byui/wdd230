@@ -4,8 +4,8 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Stormwatch Tower - Weather Updates</title>
-    <meta name="description" content="Stormwatch Tower - Weather Updates">
+    <title>The Quezon City Chamber of Commerce - Quezon City</title>
+    <meta name="description" content="The Quezon City Chamber of Commerce">
     <link rel="icon" type="image/png" sizes="32x32" href="images/logo.svg">
     
     <link rel="stylesheet" href="css/minified_normalize.css">
@@ -26,11 +26,6 @@
         <header>
             <div id="header-content">
                 
-                <div id="weather-alert">
-                    <span>Typhoon Odette arrives Dec. 14.</span>
-                    <button id="weather-alert-close">X</button>
-                </div>
-
                 <div class="upper-header">
                     <img id="site-logo" src="images/logo.svg" alt="picture of a tower" height="75" width="75">
                     <section class=site-title>
@@ -43,8 +38,8 @@
                 <div class="nav-wrapper">
                     <nav>
                         <ul class="navigation">                    
-                            <li><a href="index.html" class="active">Home</a></li>
-                            <li><a href="quezon-city.html">Quezon City</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="quezon-city.html" class="active">Quezon City</a></li>
                             <li><a href="join.html">Join</a></li>
                             <li><a href="directory.html">Directory</a></li>
                             <li><a href="contact.html">Contact</a></li>
@@ -56,125 +51,68 @@
 
         <main>
             <div id="main-content">
+
                 <div class="page-title-container">
                     <div class="title-stripe">
-                        <h1 class="page-title">Home</h1>
+                        <h1 class="page-title">Quezon City</h1>
                     </div>
                 </div>
+
+                <div class="qc-page">
                 
                 <picture>
-                    <source srcset="images/hero_image/home/840.jpg" media="(min-width:640px) and (max-width:1007px)">
-                    <source srcset="images/hero_image/home/960.jpg" media="(min-width:1008px)">
-                    <img class="hero-image" src="images/hero_image/home/placeholder.jpg" data-src="images/hero_image/home/640.jpg" alt="a lighthouse on a cliff" title="Photo by Stevan Aksentijevic from Pexels" width="960" height="466">
+                    <source srcset="images/hero_image/quezon-city/840.jpg" media="(min-width:640px) and (max-width:1007px)">
+                    <source srcset="images/hero_image/quezon-city/960.jpg" media="(min-width:1008px)">
+                    <img class="hero-image"
+                        src="images/hero_image/quezon-city/placeholder.jpg"
+                        data-src="images/hero_image/quezon-city/640.jpg"
+                        alt="Quezon City"
+                        width="960"
+                        height="466">
                 </picture>
 
-                <section class="who-we-are">
-                    <h2>Who We Are</h2>
-                    <p>The Quezon City Chamber of Commerce is an organization of businesses that operate in and around Quezon City. Since 2000, the QCCC has advocated for the interests of Quezon City's businesses. We believe that strong industries make strong cities.</p>
-                </section>
-                
-                <section class="cards">
+                <section>
 
-                    <h2>Members</h2>
-                    
-                    <section>
-                        <div class="text-wrapper">
-                            <h3>LBC</h3>
-                            <p>The LBC brand is synonymous with logistics, with its nationwide reach and network.</p>
-                        </div>
-                        <div class="img-wrapper">
-                            <img src="images/companies/placeholder.png" data-src="images/companies/lbc.png"alt="LBC Logo" height="300" width="300">
-                        </div>
-                    </section>
+                    <h2>History</h2>
 
-                    <section>
-                        <div class="text-wrapper">
-                            <h3>SMC</h3>
-                            <p>San Miguel Corporation is one of the Philippines' largest and oldest companies.</p>
-                        </div>
-                        <div class="img-wrapper">
-                            <img src="images/companies/placeholder.png" data-src="images/companies/smc.png"alt="SMC Logo" height="300" width="300">
-                        </div>
-                    </section>
-
-                    <section>
-                        <div class="text-wrapper">
-                            <h3>SM</h3>
-                            <p>With interests in retail, real estate, and banking, SM is one of QC's largest employers.</p>
-                        </div>
-                        <div class="img-wrapper">
-                            <img src="images/companies/placeholder.png" data-src="images/companies/sm.png"alt="SM Logo" height="300" width="300">
-                        </div>
-                    </section>
-                </section>
-
-                <div class="cta">
-
-                    <section class="cta-card">
-                        <p>Join the Chamber today and help build the future of Quezon City.</p>
-                        <button>Join</button>
-                    </section>
-
-                </div>
-
-                <div class="events-and-weather">
-
-                    <section class="events">
-                        <h2>Events</h2>
-                        <ul>
-                            <li>February 29: Geyser Song Day</li>
-                            <li>May 1-6: Days of May Celebration</li>
-                            <li>October 15-16: Octoberfest</li>
-                            <li>October 15-16: Octoberfest</li>
-                        </ul>
+                    <p>Quezon City was founded on October 12, 1939, and was named for Manuel L. Quezon, the second president of the Philippines. The city was intended to be the national capital of the Philippines that would replace Manila, as the latter was suffering from overcrowding, lack of housing, poor sanitation, and traffic congestion.</p
                         
-                    </section>
-
-                    <section class="weather">
-
-                        <h2>Weather</h2>                            
-                        <ul>
-                            <li><span class="left-column">Currently: </span><span class="var-weather-desc right-column">N/A</span></li>
-                            <li><span class="left-column">High: </span><span class="var-temp-f right-column">N/A</span> &#176;F</li>
-                            <li><span class="left-column">Wind Chill: </span><span class="var-wind-chill right-column">N/A</span></li>
-                            <li><span class="left-column">Humidity: </span><span class="var-humidity right-column">N/A</span>%</li>
-                            <li><span class="left-column">Wind Speed: </span><span class="var-wind-speed right-column">N/A</span> mph</li>
-                            <li><span class="wind-chill-message"></span></li>
-                        </ul>
-
-                        <h2></h2>
-
-                    </section>
-
-                    <section class="forecast">
-
-                        <h2>Forecast</h2>
-                        <ul id="forecast-list">
-                            <li>...</li>
-                            <li>...</li>
-                            <li>...</li>
-                        </ul>
-                    </section>
-
-                </div>
-
-                <section class="contact">
-                    
-                    <h2>Contact</h2>
-                    <ul>
-                        <li class="contact-address">QCC Bldg, 1 QC Ave., Q.C. </li>
-                        <li class="contact-phone">123 456 789</li>
-                        <li class="contact-email"><a href="mailto:storm@watch.tower">cc@qc.cc</a></li>
-                    </ul>
-
-                    <div class="social-links">
-                        <a href="https://www.facebook.com/" title="Facebook" rel="nofollow"><i class="fab fa-facebook-square"></i></a>
-                        <a href="https://twitter.com/" title="Twitter" rel="nofollow"><i class="fab fa-twitter-square"></i></a>
-                        <a href="https://www.instagram.com/" title="Instagram" rel="nofollow"><i class="fab fa-instagram-square"></i></a>
-                    </div>
+                    ><p>To create Quezon City, several barrios were carved out from the towns of Caloocan, Marikina, San Juan and Pasig, in addition to the eight vast estates the Philippine government purchased for this purpose. It was officially proclaimed as the national capital on October 12, 1949, and several government departments and institutions moved out of Manila and settled into the new capital city. This necessitated the expansion of the city northwards, carving out Novaliches from Caloocan which divided it into two non-contiguous parts. Several barrios were also taken from San Mateo and parts of Montalban.</p>
+                        
+                    <p>On June 24, 1976, Presidential Decree 940 was enacted, which reverted back to Manila the status of being the national capital while the whole of Metro Manila was designated the official seat of government. In spite of this, Quezon City is still widely considered the cultural capital of the Philippines.
+                    </p>
 
                 </section>
 
+                <img src="images/quezon-city/placeholder.jpg"
+                    data-src="images/quezon-city/abscbn.jpg"
+                    alt="people on stage and crowd"
+                    width="950"
+                    height="633">
+
+                <section>
+
+                    <h2>City of Stars</h2>
+
+                    <p>Quezon City is known for its culture, entertainment industry and media, and is aptly called the "City of Stars". Major broadcasting networks have their headquarters and studios in the city. It is also known for its commerce, education, research, technology, politics, tourism, art and sports. Several national government branches including the Batasang Pambansa Complex, the seat of House of Representatives of the Philippines, calls the city home.</p>
+                </section>
+
+                <img src="images/quezon-city/placeholder.jpg"
+                data-src="images/quezon-city/eastwood.jpg"
+                alt="Eastwood"
+                width="950"
+                height="633">
+
+                <section>
+                    <h2>Kyusi Today and Tomorrow</h2>
+                    <p>Quezon City is a hub for business and commerce, as a center for banking and finance, retailing, transportation, tourism, real estate, entertainment, new media, traditional media, telecommunications, advertising, legal services, accountancy, healthcare, insurance, theater, fashion, and the arts in the Philippines. The National Competitiveness Council of the Philippines which annually publishes the Cities and Municipalities Competitiveness Index (CMCI), ranks the cities, municipalities and provinces of the country according to their economic dynamism, government efficiency and infrastructure.</p>
+                        
+                    <p>Quezon City was the Most Competitive City in the country from 2015 to 2019 assuring that the city is consistently one of the best place to live in and do business. It earned the Hall of Fame Award in 2020 for its consecutive top performance. There are about 86,000 registered business in the city. As of 2019, Quezon City was the second richest city in the Philippines, second only to Makati City, with total assets of ₱96.4 billion.
+                    </p>
+                </section>
+            
+            </div>
+                
             </div>
         </main>
 
@@ -189,9 +127,6 @@
 
                 <!-- global scripts -->
                 <script src="js/scripts.js" defer></script>
-
-                <!-- page-specific scripts -->
-                <script src="js/index.js"></script>
 
                 <!-- Web Font Loader -->
                 <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
