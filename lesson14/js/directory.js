@@ -2,7 +2,7 @@
 const CardsDiv = document.getElementById('directory-cards')
 const CardsViewButton = document.getElementById('cards-view')
 const ListViewButton = document.getElementById('list-view')
-\
+
 const requestURL = 'https://nephi-byui.github.io/wdd230/lesson14/js/companies.json';
 /* delete link */
 /* MOCKY: https://run.mocky.io/v3/9189e2c3-872e-488b-a4c7-83bde983fae6' */
