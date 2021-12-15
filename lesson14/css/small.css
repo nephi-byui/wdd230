@@ -620,9 +620,20 @@ footer a:hover {
     color: skyblue;
 }
 
+/* for really tiny screens */
+@media only screen and (max-width: 500px) {
+
+    .site-title {
+        font-size: .7em;
+    }
+    
+
+}
 
 /* for really tiny screens */
 @media only screen and (max-width: 479px) {
+
+
 
     /* footer */
 
@@ -634,10 +645,6 @@ footer a:hover {
         font-size: .9em;
     }
 
-    footer h3 {
-        font-size: 1.6em;
-    }
-
     footer img {
         max-width: 95vw;
     }    
@@ -646,6 +653,10 @@ footer a:hover {
 
 /* for super small screens */
 @media only screen and (max-width: 379px) {
+
+    .site-title {
+        font-size: .6em;
+    }
     
     /* index */
     .cards section {
@@ -654,24 +665,6 @@ footer a:hover {
 
     .image-wrapper img {
         max-width: 280px;
-    }
-
-    /* stormcenter.html */
-
-    fieldset {
-        max-width: 250px;
-    }
-
-    .personal-info input,
-    .personal-info select,
-    .storm-info input,
-    .storm-info select,
-    .radio-selection,
-    textarea {
-        margin: auto;
-        width: 200px;
-        margin: 0 .25em;
-        padding: .25em;;
     }
 
 }
