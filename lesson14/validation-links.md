@@ -16,3 +16,10 @@
 ## JOIN
 * https://nephi-byui.github.io/wdd230/lesson14/join.html
 * https://jigsaw.w3.org/css-validator/validator?profile=css3&warning=0&uri=https%3A%2F%2Fnephi-byui.github.io%2Fwdd230%2Flesson14%2Fjoin.html
+* https://validator.w3.org/nu/?doc=https%3A%2F%2Fnephi-byui.github.io%2Fwdd230%2Flesson14%2Fjoin.html
+* https://wave.webaim.org/report#/https%3A%2F%2Fnephi-byui.github.io%2Fwdd230%2Flesson14%2Fjoin.html
+* https://validator.w3.org/checklink?check=Check&hide_type=all&summary=on&uri=https%3A%2F%2Fnephi-byui.github.io%2Fwdd230%2Flesson14%2Fjoin.html
+* https://pagespeed.web.dev/report?url=https%3A%2F%2Fnephi-byui.github.io%2Fwdd230%2Flesson14%2Fjoin.html - MOBILE: 91, DESKTOP 99
+
+## DIRECTORY
+* https://nephi-byui.github.io/wdd230/lesson14/directory.html
