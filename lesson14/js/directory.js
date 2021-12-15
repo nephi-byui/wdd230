@@ -51,6 +51,9 @@ const fetchCards = () => {
                 let photo = document.createElement('img');
                 photo.src = `images/companies/directory/${companies[i].logo}`;
                 photo.alt = `${companies[i].name} Logo`
+                photo.height = '300'
+                photo.width = '300'
+
                 card.appendChild(photo);
 
                 // add card to div
