@@ -42,7 +42,7 @@ const fetchCards = () => {
 
                 // birthplace
                 let website = document.createElement('p');
-                website.innerHTML = `Website: <a href="${companies[i].website}">LINK</a>`;
+                website.innerHTML = `<a href="${companies[i].website}">Website</a>`;
                 div.appendChild(website);
 
                 card.appendChild(div);
