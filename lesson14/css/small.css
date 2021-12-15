@@ -648,7 +648,7 @@ input {
 
 .radio-wrapper {
     padding: 1em;
-    width: 96%;
+    width: 90%;
     margin: 10px auto;
     display: grid;
     grid-column-gap: 10px;
@@ -657,7 +657,7 @@ input {
 
 .radio-selection {
     margin: auto;
-    width: 95%;
+    width: 90%;
     height: 100%;
     padding: 1em;
 }
@@ -801,6 +801,10 @@ form .button-wrapper {
 
     .image-wrapper img {
         max-width: 250px;
+    }
+
+    .option-card {
+        max-width: 265px;
     }
 
 }
