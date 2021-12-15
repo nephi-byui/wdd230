@@ -14,9 +14,8 @@ var get_weather = function(latitude,longitude) {
     .then((response) => response.json())
     .then((weatherJSON) => {
 
-        if (DEBUG_MODE == true){
         console.log("RESPONSE : ")
-        console.log(weatherJSON)};
+        console.log(weatherJSON)       
         console.log()
 
         // town name 
@@ -42,7 +41,7 @@ var get_weather = function(latitude,longitude) {
         //should still calculate and display the wind chill factor.
         const wind_chill = get_wind_chill(temp_f,wind_speed_mph)
 
-        if (DEBUG_MODE == true) {
+        // debugging 
         console.log('*DEBUG MODE IS ON*')
         console.log(`name = ${town_name}`)        
         console.log(`weather_desc = ${weather_desc}`)        
@@ -51,7 +50,7 @@ var get_weather = function(latitude,longitude) {
         console.log(`humidity = ${humidity}`)        
         console.log(`wind_speed_mph = ${wind_speed_mph}`)
         console.log(`wind_chill = ${wind_chill}`)
-        }
+        
 
         /* update HTML Form flements*/        
         document.querySelector(".var-weather-desc").innerHTML = weather_desc
@@ -115,6 +114,25 @@ var get_weather = function(latitude,longitude) {
 var get_f_from_k = function(temp_k) {
     temp_f = (temp_k - 273.15) * 9/5 + 32
     return temp_f
+}
+
+/* Wind chill = 35.74 + 0.6215T – 35.75 (V^0.16) + 0.4275T (V^0.16) */
+var get_wind_chill = function(temp_f,wind_speed_mph) {
+
+    if (temp_f <= 50  && wind_speed_mph > 3) {
+
+        wind_chill  = 35.74
+                    + 0.6215 * temp_f
+                    - 35.75 * wind_speed_mph ** 0.16
+                    + 0.4275 * temp_f * wind_speed_mph ** 0.16
+
+        wind_chill_str = wind_chill.toFixed(1)
+        return (wind_chill_str +  " &#176;F")
+    }
+
+    else {
+        return "N/A"
+    }
 }
 
 
