@@ -59,6 +59,7 @@ var get_weather = function(latitude,longitude) {
         document.querySelector(".var-temp-f").innerHTML = temp_f_string
         document.querySelector(".var-wind-chill").innerHTML = wind_chill
         document.querySelector(".var-humidity").innerHTML = humidity
+
         document.querySelector(".var-wind-speed").innerHTML = wind_speed_string
         
         if (wind_chill == "N/A") {
@@ -75,11 +76,46 @@ var get_weather = function(latitude,longitude) {
             }
             document.querySelector(".wind-chill-message").innerHTML = windchill_message
         }
-        
+
+        // forecast
+        const forecast_list_element = document.getElementById("forecast-list")
+        forecast_list_element.innerHTML = ""
+
+        /* get the forecast data */
+        for (let i = 1; i < 4; i++ ) {
+
+            var seconds = weatherJSON.daily[i].dt
+            var milliseconds = seconds * 1000
+            date = new Date(milliseconds)
+
+            const date_and_month = { month: 'short', day: 'numeric'}
+            var date_string = date.toLocaleDateString(undefined, date_and_month);
+            console.log(date_string)
+
+            forecast_k = weatherJSON.daily[i].temp.day
+            forecast_f = get_f_from_k(forecast_k)
+            daytime_temp = forecast_f.toFixed(1)
+            console.log(daytime_temp)
+
+            li = document.createElement('li')
+            li.innerHTML = `${date_string} - ${daytime_temp} °F`
+            forecast_list_element.appendChild(li)
+
+        }
+
+
+
+
+
+        /* end json stuff */
 
     })
 }
 
+var get_f_from_k = function(temp_k) {
+    temp_f = (temp_k - 273.15) * 9/5 + 32
+    return temp_f
+}
 
 
 get_weather(QC_LATITUDE,QC_LONGITUDE)

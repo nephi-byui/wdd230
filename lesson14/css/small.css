@@ -282,6 +282,16 @@ nav {
     border-radius: 10px;
 }
 
+/* INDEX >> Who we are*/
+
+.who-we-are h2 {
+    text-align: center;
+}
+
+.who-we-are p {
+    font-size: 1.25em;
+}
+
 /* cards */
 
 .cards h2 {
@@ -400,6 +410,7 @@ div.cta {
 
 /* INDEX >> events */
 
+.forecast,
 .weather,
 .events {
     text-align: center;
@@ -410,6 +421,8 @@ div.cta {
     padding-bottom: 35px;
 }
 
+.forecast h2,
+.forecast p,
 .weather h2,
 .weather p,
 .events h2,
@@ -417,11 +430,13 @@ div.cta {
     color: var(--almost-white);
 }
 
+.forecast ul,
 .weather ul,
 .events ul {
     padding-left: 0;
 }
 
+.forecast li,
 .weather li,
 .events li {
     color: var(--almost-white);
@@ -434,8 +449,7 @@ div.cta {
 
 .weather {
     margin: auto;
-    background-color: var(--jet-black);
-    
+    background-color: var(--jet-black);    
     color: var(--almost-white);
 }
 
@@ -444,6 +458,15 @@ div.cta {
     color: var(--light-steel-blue);
     font-size: 12px;
     font-style: italic;
+}
+
+/* forecast */
+
+.forecast {
+    margin: auto;
+    background-color: var(--steel-blue);    
+    color: var(--almost-white);
+    width: 100%;
 }
 
 

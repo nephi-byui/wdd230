@@ -115,12 +115,13 @@
 
 	.events-and-weather {
 		display: grid;
-		grid-template-columns: 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr;
 		grid-column-gap: 10px;
 	}
 
 	.events,
-	.weather {
+	.weather,
+	.forecast {
 		max-width: 100%;
 		width: 100%;
 		height: 300px;
